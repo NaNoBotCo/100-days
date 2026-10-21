@@ -6,7 +6,7 @@
 
 Counts in the copy are {tokens} filled from src/data.json, so no number is typed twice.
 """
-import html, json, pathlib, statistics, datetime as dt
+import html, json, pathlib, re, statistics, datetime as dt
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SRC, DOCS = ROOT / "src", ROOT / "docs"
@@ -30,7 +30,8 @@ def tokens(d):
 def fill(s, t):
     for k, v in t.items():
         s = s.replace("{" + k + "}", v)
-    assert "{w" not in s and "{r" not in s, s
+    left = re.findall(r"\{[a-z_0-9]+\}", s)
+    assert not left, left
     return s
 
 
@@ -177,7 +178,7 @@ def llms(C, D):
         x = L["en"]
         out += [f"## Week {L['w']} ({L['dates']['en']}): {x['title']}", "", fill(x["happened"], t), "",
                 f"Lesson: {fill(x['lesson'], t)}", f"Running now: {fill(x['now'], t)}", ""]
-    out += ["## Gossip", ""] + [f"- {s['d']['en']}: {s['en'][0]}. {fill(s['en'][1], t)}" for s in C["tattler"]]
+    out += ["## Gossip", ""] + [f"- {s['d']['en']}: {fill(s['en'][0], t)}. {fill(s['en'][1], t)}" for s in C["tattler"]]
     return "\n".join(out) + "\n"
 
 

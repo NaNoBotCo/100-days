@@ -1,6 +1,6 @@
 # 100 Days of Vibe-Coding Insanity · Lessons learned
 
-> Fifteen weeks of building with AI agents, one lesson a week, every number counted from git and the ledgers: 4,585 commits, 166 rules, US$50 in. Charts, gossip and toys.
+> Fifteen weeks of building with AI agents, one lesson a week, every number counted from git and the ledgers: 4,591 commits, 168 rules, US$50 in. Charts, gossip and toys.
 
 English: https://nanobotco.github.io/100-days/ · Thai: https://nanobotco.github.io/100-days/th/ · Source: https://github.com/NaNoBotCo/100-days
 Counted 2026-10-21 by tools/data.py.
@@ -87,7 +87,7 @@ Running now: Counts on her pages come from the data at build time. This page’s
 29 new repos and 555 commits. On 2 October the Mac had 0.2 GB free. The usage meter told the same story. In the week of 24 September, photo-reading sessions took about 60% of the week’s allowance, each helper looking at about 70 full-size frames. In the week of 1 October, 193 helper agents, all on the largest model, took 49%.
 
 Lesson: One habit eats the budget. Find it before buying more.
-Running now: diskkeeper runs every ten minutes and has cleared or moved 60.4 GB to cloud storage. Helper agents run on a smaller model since 5 October. Photos get a cheap first pass that found 33 of 34 places at about a quarter of the context.
+Running now: diskkeeper runs every ten minutes and has cleared or moved 60.5 GB to cloud storage. Helper agents run on a smaller model since 5 October. Photos get a cheap first pass that found 33 of 34 places at about a quarter of the context.
 
 ## Week 13 (3–9 Oct): One copy is no copy
 
@@ -105,7 +105,7 @@ Running now: Every server build writes a profile. One shared read replaced the r
 
 ## Week 15 (17–21 Oct): Building is not selling
 
-One hundred days, 125 public repos. Cash in: US$50, from one client. Outbound asks: 13. Travel links: 47 clicks, $0.00. Quora: 408,041 views in 30 days, $0. On motdang.net, 85% of one week’s requests were AI crawlers and 0.4% looked like people. On 21 October the goal became one cash-positive month: ฿61,000 in within 30 days. Pictures and video went to a person, Marcus, on 16 October.
+One hundred days, 126 public repos. Cash in: US$50, from one client. Outbound asks: 13. Travel links: 47 clicks, $0.00. Quora: 408,041 views in 30 days, $0. On motdang.net, 85% of one week’s requests were AI crawlers and 0.4% looked like people. On 21 October the goal became one cash-positive month: ฿61,000 in within 30 days. Pictures and video went to a person, Marcus, on 16 October.
 
 Lesson: Shipping counts commits. Revenue counts asks: a named person, a finished thing, a price, a send date.
 Running now: One ask a week, built to completion and parked for her one word. The asks ledger counts them.
@@ -116,7 +116,7 @@ Running now: One ask a week, built to completion and parked for her one word. Th
 - 31 Jul: Ad doctrine written by a bot, cited as law. A session wrote “Nothing is for sale except the ad box” into the agent notes. For five weeks later sessions turned down affiliate links on its authority. NaN uses affiliate links.
 - 5 Sep: Model invents three distances. A prompt said distances had been worked out for each listing. None had a map pin. The model wrote “about 1.1 km”, “1.2 km”, “1.3 km”, though the same prompt forbade guessing. The premise beat the prohibition.
 - 5 Sep: Four minutes. Between one session listing a folder and reading it, a second session shipped the whole /api/v1 layer and started a build. NaN’s name for it: the tower.
-- 18 Sep: {top} commits in one day. The busiest day of the hundred. The median day had 29.
+- 18 Sep: 375 commits in one day. The busiest day of the hundred. The median day had 29.
 - 16–22 Sep: A scraper in a Chrome costume. 18 Chrome version strings at about 3,700 requests each hit the same five motdang.net pages. On wichaa.net one headless browser read 388 manuscript pages exactly 17 times each.
 - 23 Sep: Zero humans on GitHub. Fourteen days of GitHub traffic: 0 stars, 0 followers, 0 human views on any repo. The clones were machines.
 - 23 Sep: One rebuild eats 77 share cards. A partial deploy deletes everything inside its folder that it did not build. The loop’s rebuild recipe lacked the card step. Fixed the same hour.
