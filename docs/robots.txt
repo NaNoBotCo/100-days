@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nanobotco.github.io/100-days/sitemap.xml
