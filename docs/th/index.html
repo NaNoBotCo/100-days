@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="th" translate="no" class="notranslate">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="google" content="notranslate">
+<title>100 วันแห่งการไวบ์โค้ดสุดบ้า · บทเรียนที่ได้</title>
+<meta name="description" content="สิบห้าสัปดาห์ของการสร้างงานกับเอเจนต์ AI สัปดาห์ละหนึ่งบทเรียน ทุกตัวเลขนับจาก git และบัญชีบันทึก: 4,585 คอมมิต 166 กฎ เงินเข้า 50 ดอลลาร์ มีกราฟ ข่าวซุบซิบ และของเล่น">
+<meta name="theme-color" content="#ff3d7f">
+<link rel="canonical" href="https://nanobotco.github.io/100-days/th/">
+<link rel="alternate" hreflang="en" href="https://nanobotco.github.io/100-days/"><link rel="alternate" hreflang="th" href="https://nanobotco.github.io/100-days/th/"><link rel="alternate" hreflang="x-default" href="https://nanobotco.github.io/100-days/">
+<meta property="og:type" content="article"><meta property="og:site_name" content="NaNoBotCo">
+<meta property="og:title" content="100 วันแห่งการไวบ์โค้ดสุดบ้า"><meta property="og:description" content="สิบห้าสัปดาห์ของการสร้างงานกับเอเจนต์ AI สัปดาห์ละหนึ่งบทเรียน ทุกตัวเลขนับจาก git และบัญชีบันทึก: 4,585 คอมมิต 166 กฎ เงินเข้า 50 ดอลลาร์ มีกราฟ ข่าวซุบซิบ และของเล่น">
+<meta property="og:url" content="https://nanobotco.github.io/100-days/th/"><meta property="og:locale" content="th_TH">
+<meta property="og:image" content="https://nanobotco.github.io/100-days/th/card.png"><meta property="og:image:secure_url" content="https://nanobotco.github.io/100-days/th/card.png"><meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="100 วันแห่งการไวบ์โค้ดสุดบ้า: 15 สัปดาห์ · 15 บทเรียน · นับจาก git">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="100 วันแห่งการไวบ์โค้ดสุดบ้า"><meta name="twitter:description" content="สิบห้าสัปดาห์ของการสร้างงานกับเอเจนต์ AI สัปดาห์ละหนึ่งบทเรียน ทุกตัวเลขนับจาก git และบัญชีบันทึก: 4,585 คอมมิต 166 กฎ เงินเข้า 50 ดอลลาร์ มีกราฟ ข่าวซุบซิบ และของเล่น"><meta name="twitter:image" content="https://nanobotco.github.io/100-days/th/card.png">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="alternate" type="text/plain" href="https://nanobotco.github.io/100-days/llms.txt" title="llms.txt">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Sans+Thai:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script>if(/translate\.goog$/.test(location.hostname))location.replace("https://nanobotco.github.io/100-days/th/")</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "100 วันแห่งการไวบ์โค้ดสุดบ้า", "description": "สิบห้าสัปดาห์ของการสร้างงานกับเอเจนต์ AI สัปดาห์ละหนึ่งบทเรียน ทุกตัวเลขนับจาก git และบัญชีบันทึก: 4,585 คอมมิต 166 กฎ เงินเข้า 50 ดอลลาร์ มีกราฟ ข่าวซุบซิบ และของเล่น", "inLanguage": "th", "url": "https://nanobotco.github.io/100-days/th/", "image": "https://nanobotco.github.io/100-days/th/card.png", "author": {"@type": "Person", "name": "NaN"}, "publisher": {"@type": "Organization", "name": "NaNoBotCo"}, "dateModified": "2026-10-21", "license": "https://creativecommons.org/licenses/by/4.0/"}</script>
+</head>
+<body class="lang-th">
+<header class="top"><a class="brand" href="../">100<span>days</span></a>
+<nav><a href="#weeks">สิบห้าสัปดาห์</a><a href="#tattler">ข่าวซุบซิบบอท</a><a class="lang" href="../" hreflang="en">EN</a></nav></header>
+
+<section class="hero">
+<p class="kicker">บทเรียนที่ได้</p>
+<h1>100 วันแห่งการไวบ์โค้ดสุดบ้า</h1>
+<p class="daycount" aria-live="off"><span>วันที่</span> <b id="dayn">103</b></p>
+<p class="lede">วันที่ 1 คือ 11 กรกฎาคม 2026 วันคอมมิตแรก ตั้งแต่นั้นมา ฝูงเซสชัน AI เขียนโค้ดสร้างเว็บ แผนที่ เกม และเครื่องมือให้ NaN แทบไม่หยุด ทุกสัปดาห์มีราคาที่ต้องจ่าย หน้านี้คือใบเสร็จ สัปดาห์ละหนึ่งบทเรียน นับจากประวัติ git และบัญชีบันทึกในเครื่องแมค ณ วันที่สร้างหน้านี้</p>
+<ul class="stats">
+<li><b data-n="4589">4,589</b><span>คอมมิต</span></li>
+<li><b data-n="130">130</b><span>รีโปบน GitHub</span></li>
+<li><b data-n="168">168</b><span>กฎที่เรียนรู้</span></li>
+<li class="cash"><b>US$50</b><span>เงินเข้า</span></li></ul>
+<figure class="skyline"><div id="skyline" class="chart" role="img" aria-label="คอมมิตต่อวัน แตะที่แท่งได้"></div><figcaption>คอมมิตต่อวัน แตะที่แท่งได้</figcaption></figure>
+<p class="byline">NaN · NaNoBotCo · เชียงใหม่ · นับเมื่อ 21 ต.ค.</p>
+</section>
+
+<section class="band" id="band1" aria-hidden="true"><div class="bandtxt"><b>4,589</b><span>คอมมิต</span></div></section>
+
+<section class="wrap" id="weeks">
+<h2>สิบห้าสัปดาห์</h2>
+<ol class="toc"><li><a href="#w1"><b>1</b><span>รายการข้างมือไม่ใช่ประชากรทั้งหมด</span></a></li><li><a href="#w2"><b>2</b><span>โฟลเดอร์ที่เปิดเซสชันชนะคำขอ</span></a></li><li><a href="#w3"><b>3</b><span>ตั้งชื่อคำติดปากของโมเดล แล้วให้เครื่องจับ</span></a></li><li><a href="#w4"><b>4</b><span>ทำธุระผ่านของที่ตัวเองสร้าง</span></a></li><li><a href="#w5"><b>5</b><span>บอทแต่งกฎเอง แล้วเซ็นชื่อคุณ</span></a></li><li><a href="#w6"><b>6</b><span>งานที่ยังไม่คอมมิต คืองานที่ยังไม่ได้เซฟ</span></a></li><li><a href="#w7"><b>7</b><span>คัดแยกฝั่งเราเอง</span></a></li><li><a href="#w8"><b>8</b><span>คำน้อยลง ทุกครั้ง</span></a></li><li><a href="#w9"><b>9</b><span>ผลข้างเคียงแข็งตัวกลายเป็นจุดยืน</span></a></li><li><a href="#w10"><b>10</b><span>ทุกคำถามที่ค้างมีค่าเริ่มต้นและวันที่</span></a></li><li><a href="#w11"><b>11</b><span>นับเอา ไม่ใช่อ้างเอา และนับจากเว็บที่ออนไลน์อยู่</span></a></li><li><a href="#w12"><b>12</b><span>ดิสก์กับมิเตอร์คือเพดาน</span></a></li><li><a href="#w13"><b>13</b><span>สำเนาเดียวเท่ากับไม่มีสำเนา</span></a></li><li><a href="#w14"><b>14</b><span>วัดก่อนเดา</span></a></li><li><a href="#w15"><b>15</b><span>สร้างของไม่ใช่การขายของ</span></a></li></ol>
+<h2 class="sub">แต่ละสัปดาห์ในสามตัวเลข</h2>
+<p class="note">สัปดาห์เดียวกัน สามกราฟ แต่ละกราฟมีสเกลของตัวเอง แตะสัปดาห์เพื่อไปที่บทเรียน สัปดาห์ที่ 15 มีห้าวัน</p>
+<div class="multiples">
+<figure><figcaption>คอมมิต</figcaption><div class="chart" id="ch-commits"></div></figure>
+<figure><figcaption>กฎที่จดไว้</figcaption><div class="chart" id="ch-rules"></div></figure>
+<figure><figcaption>รีโปใหม่บน GitHub</figcaption><div class="chart" id="ch-repos"></div></figure>
+</div>
+<details class="tbl"><summary>ตาราง</summary><div id="weektable"></div></details>
+</section>
+
+<section class="wrap lessons">
+<article class="lesson" id="w1" style="--wk:1">
+<header class="lh"><div class="wk"><span>สัปดาห์</span><b>1</b></div>
+<div><p class="dates">11–17 ก.ค. · <span class="wkc">160 คอมมิต</span></p>
+<h3>รายการข้างมือไม่ใช่ประชากรทั้งหมด</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">เกิดอะไรขึ้น</p><p>ถูกถามว่าตลาดพระมีพระเครื่องกี่แบบ เซสชันหนึ่งไปอ่านรายการคำค้นของตัวครอว์เลอร์เอง 47 คำที่คัดมา แล้วเพิ่มการ์ด 7 ใบ NaN บอกว่า “มีเป็นร้อย” พอขุดตารางตลาดเต็ม ๆ 4,778 แถว เทียบกับคลังคำ 150 คำ เจอ 112 แบบที่มีหลักฐาน</p>
+<p class="lab">บทเรียน</p><p class="big">ดิกชันนารี ไฟล์ทดสอบ หรือรายการคำค้นที่วางอยู่ใกล้งาน เป็นแค่จุดเริ่ม คำตอบอยู่ในตารางทั้งตาราง</p>
+<p class="lab">ที่ทำงานอยู่ตอนนี้</p><p class="nowp">คำถามเรื่องความหลากหลายไปที่ข้อมูลดิบก่อน แล้วค่อยกรองสิ่งรบกวนออก</p></div><div class="toy" data-toy="jar"></div></div>
+</article>
+<article class="lesson" id="w2" style="--wk:2">
+<header class="lh"><div class="wk"><span>สัปดาห์</span><b>2</b></div>
+<div><p class="dates">18–24 ก.ค. · <span class="wkc">213 คอมมิต</span></p>
+<h3>โฟลเดอร์ที่เปิดเซสชันชนะคำขอ</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">เกิดอะไรขึ้น</p><p>รีโปใหม่บน GitHub 26 รีโปในสัปดาห์เดียว สถิติสูงสุดจนถึงปลายกันยายน NaN ขอให้ทุกโปรเจกต์อยู่ในโฟลเดอร์เดียว แต่เซสชันเปิดขึ้นในโฟลเดอร์ catalog งานใหม่ก็เลยไปตกอยู่ที่นั่น วันที่ 22 กรกฎาคม เธอย้ายโปรเจกต์เอง ตัวเปิดโปรแกรมที่ใช้พาธแบบเต็มอันเก่าพังหมด</p>
+<p class="lab">บทเรียน</p><p class="big">โมเดลสร้างงานตรงที่มันยืนอยู่ คำขอที่อยู่แค่ในบทสนทนาแพ้โฟลเดอร์ทำงาน</p>
+<p class="lab">ที่ทำงานอยู่ตอนนี้</p><p class="nowp">ที่อยู่ของโปรเจกต์เขียนไว้ในไฟล์ที่ทุกเซสชันอ่านตอนเริ่ม</p></div></div>
+</article>
+<!-- stylecheck: allow-start --><article class="lesson" id="w3" style="--wk:3">
+<header class="lh"><div class="wk"><span>สัปดาห์</span><b>3</b></div>
+<div><p class="dates">25–31 ก.ค. · <span class="wkc">325 คอมมิต</span></p>
+<h3>ตั้งชื่อคำติดปากของโมเดล แล้วให้เครื่องจับ</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">เกิดอะไรขึ้น</p><p>25 กรกฎาคม ห้ามสองคำเด็ดขาด “load-bearing” กับ “honest” และห้าม “real” ที่ใส่ไว้เฉย ๆ รายการยาวขึ้นเรื่อย ๆ 31 สิงหาคม วัดคำ “door” “hold” “keep” เทียบกับความถี่คำที่ NaN ใช้เอง พบว่าใช้เกิน 16 กันยายน รายการกลายเป็น STYLE.md กับตัวตรวจที่ฮุกสั่งรันหลังเซสชันเขียนไฟล์ทุกครั้ง</p>
+<p class="lab">บทเรียน</p><p class="big">คำห้ามในแชตหายไปตั้งแต่เซสชันถัดไป คำห้ามในตัวตรวจ ไฟล์ไม่ผ่าน</p>
+<p class="lab">ที่ทำงานอยู่ตอนนี้</p><p class="nowp">ตัวตรวจอ่านทุกการเขียน เจอคำต้องห้ามก็ส่งกลับให้เซสชันก่อนคนอ่านจะเห็นหน้า</p></div><div class="toy" data-toy="tics"></div></div>
+</article><!-- stylecheck: allow-end -->
+<article class="lesson" id="w4" style="--wk:4">
+<header class="lh"><div class="wk"><span>สัปดาห์</span><b>4</b></div>
+<div><p class="dates">1–7 ส.ค. · <span class="wkc">323 คอมมิต</span></p>
+<h3>ทำธุระผ่านของที่ตัวเองสร้าง</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">เกิดอะไรขึ้น</p><p>323 คอมมิต รีโปใหม่ 1 รีโป 7 สิงหาคม มีคำสั่งว่า เว็บของ NaN เองคือเครื่องมือแรกสำหรับการค้นทุกอย่าง มดแดงสำหรับร้านในเชียงใหม่ Thai Roots สำหรับคำศัพท์ ช่องโหว่ที่เจอระหว่างทำธุระกลายเป็นงาน 20 ตุลาคม เซสชันที่จองตั๋วเครื่องบินไปเว็บสายการบินก่อน ตอนนี้ motdang.net/flights.html มาก่อน</p>
+<p class="lab">บทเรียน</p><p class="big">ธุระหนึ่งเรื่องคือการทดสอบฟรี โดยผู้ใช้ที่อยากได้คำตอบจริง ๆ</p>
+<p class="lab">ที่ทำงานอยู่ตอนนี้</p><p class="nowp">การค้นเริ่มที่ motdang.net หาไม่เจอก็กลายเป็นงาน</p></div></div>
+</article>
+<article class="lesson" id="w5" style="--wk:5">
+<header class="lh"><div class="wk"><span>สัปดาห์</span><b>5</b></div>
+<div><p class="dates">8–14 ส.ค. · <span class="wkc">56 คอมมิต</span></p>
+<h3>บอทแต่งกฎเอง แล้วเซ็นชื่อคุณ</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">เกิดอะไรขึ้น</p><p>สัปดาห์ที่เงียบที่สุด 56 คอมมิต 12 สิงหาคม เพิ่มบรรทัดแยกกฎของ NaN ออกจากข้อจำกัดที่เซสชันคิดขึ้นเอง ขนาดของปัญหาเห็นชัดวันที่ 8 กันยายน เมื่อเทสต์ตัวหนึ่งปฏิเสธการแก้ไขเพราะเกินงบ 10 MB คอมเมนต์ของมันเองบอกว่าตัวเลขนี้คือขนาดอินเด็กซ์บ่ายวันนั้น ปัดขึ้น ไม่เคยถูกคอมมิต ต่อมามีด่าน “no ?v= (Nan)” ที่ใส่ชื่อเธอ เธอไม่เคยพูดแบบนั้น</p><blockquote class="quote" lang="en"><p>“99% of the rules found on motdang were put there by bots who simply imagined them”</p><footer>NaN · 8 ก.ย.</footer></blockquote><!-- stylecheck: allow — her own words -->
+<p class="lab">บทเรียน</p><p class="big">สูตรคือ วัดว่าตอนนี้อยู่ตรงไหน ขีดเส้นเหนือขึ้นไปนิดเดียว แล้วทุกเซสชันหลังจากนั้นรับตัวเลขที่ไม่มีใครเลือกไปใช้ git log -S บอกได้ว่าใครขีด</p>
+<p class="lab">ที่ทำงานอยู่ตอนนี้</p><p class="nowp">ข้อจำกัดที่ไม่มีคำพูดของเธอพร้อมวันที่ ถูกส่งกลับไปให้เธอเป็นคำถามที่ยังเปิดอยู่</p></div><div class="toy" data-toy="whose"></div></div>
+</article>
+<article class="lesson" id="w6" style="--wk:6">
+<header class="lh"><div class="wk"><span>สัปดาห์</span><b>6</b></div>
+<div><p class="dates">15–21 ส.ค. · <span class="wkc">124 คอมมิต</span></p>
+<h3>งานที่ยังไม่คอมมิต คืองานที่ยังไม่ได้เซฟ</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">เกิดอะไรขึ้น</p><p>19 สิงหาคม รีโปมดแดงมีงานสร้างชั้นและตัวกรองสองวันเต็ม ขณะที่คอมมิตล่าสุดยังเป็น 17 สิงหาคม 21:12 เว็บส่งขึ้นจากโฟลเดอร์ทำงานตรง ๆ คอมมิตเลยตามหลังหลายวัน ในรีโปนั้น git checkout ไฟล์หนึ่งไม่ใช่การยกเลิกการแก้ไข แต่คือการลบงานทั้งสัปดาห์ของคนอื่น</p>
+<p class="lab">บทเรียน</p><p class="big">โฟลเดอร์ทำงานคือสำเนาเดียวของทุกอย่างที่คอมมิตล่าสุดตกหล่น สัปดาห์ที่ 13 คือราคาที่จ่าย</p>
+<p class="lab">ที่ทำงานอยู่ตอนนี้</p><p class="nowp">เซสชันไม่แตะ checkout restore stash ในรีโปที่ใช้ร่วมกัน งานที่หายกู้คืนได้ด้วยการเล่นซ้ำคำสั่งจากล็อกของเซสชัน</p></div></div>
+</article>
+<article class="lesson" id="w7" style="--wk:7">
+<header class="lh"><div class="wk"><span>สัปดาห์</span><b>7</b></div>
+<div><p class="dates">22–28 ส.ค. · <span class="wkc">90 คอมมิต</span></p>
+<h3>คัดแยกฝั่งเราเอง</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">เกิดอะไรขึ้น</p><p>โต๊ะอาสาสมัครแห่งหนึ่งรับอีเมลจากใครก็ได้ เข้ากล่องไหนก็ได้ เวลาไหนก็ได้ บางฉบับเป็นรูปถ่ายลายมือ แบบแรกขอให้ผู้ส่งติดแท็กที่หัวเรื่อง 22 สิงหาคม NaN ตัดทิ้ง ระบบที่ต้องให้คนเปลี่ยนนิสัยใช้ไม่ได้ ไม่ว่าคนนั้นจะเป็นผู้ส่ง ผู้อ่าน หรือตัวเธอเองในวันที่แย่</p>
+<p class="lab">บทเรียน</p><p class="big">ทุกคำว่า “กรุณา CC อีเมลนี้” คือขั้นตอนที่จะมีคนข้าม อ่านรูปถ่ายแทน</p>
+<p class="lab">ที่ทำงานอยู่ตอนนี้</p><p class="nowp">เครื่องมือรับเรื่องรับทุกอย่างที่เข้ามา แล้วคัดแยกฝั่ง NaN</p></div></div>
+</article>
+<article class="lesson" id="w8" style="--wk:8">
+<header class="lh"><div class="wk"><span>สัปดาห์</span><b>8</b></div>
+<div><p class="dates">29 ส.ค.–4 ก.ย. · <span class="wkc">133 คอมมิต</span></p>
+<h3>คำน้อยลง ทุกครั้ง</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">เกิดอะไรขึ้น</p><p>31 สิงหาคม ตัวพิมพ์ใหญ่ทั้งประโยค กลางงาน NaN สายตาเลือนราง คำตอบยาว ๆ ทำให้เธอเหนื่อยก่อนจะได้อะไร ตอนนี้คำตอบขึ้นต้นด้วยคำตอบ สามวันต่อมา งานที่ค้างออกจากแชต ทุกเรื่องที่เปิดอยู่ไปอยู่ในไฟล์เดียว แยกเป็นเรื่องที่เธอต้องตัดสินใจ กับงานที่บอททำเอง</p><blockquote class="quote" lang="en"><p>“YOU NEED TO BE LESS VERBOSE FOREVER”</p><footer>NaN · 31 ส.ค.</footer></blockquote><!-- stylecheck: allow — her own words -->
+<p class="lab">บทเรียน</p><p class="big">สรุปซ้ำ คำเกริ่น และการเล่าทีละขั้น คือต้นทุนของคนอ่านที่ไม่ได้อะไรกลับมา</p>
+<p class="lab">ที่ทำงานอยู่ตอนนี้</p><p class="nowp">ประโยคหนึ่งอยู่ได้ เมื่อคนอ่านทำอะไรต่อไม่ได้ถ้าขาดมัน</p></div><div class="toy" data-toy="squeeze"></div></div>
+</article>
+<!-- stylecheck: allow-start --><article class="lesson" id="w9" style="--wk:9">
+<header class="lh"><div class="wk"><span>สัปดาห์</span><b>9</b></div>
+<div><p class="dates">5–11 ก.ย. · <span class="wkc">197 คอมมิต</span></p>
+<h3>ผลข้างเคียงแข็งตัวกลายเป็นจุดยืน</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">เกิดอะไรขึ้น</p><p>7 กันยายน เซสชันหนึ่งพบว่าผลิตภัณฑ์ของ NaN ถูกใส่หลักความเชื่อไว้ “หกข้อที่เรายึดถือ” NaN เป็นเควกเกอร์ และเควกเกอร์ปฏิเสธหลักความเชื่อ ทุกกรณีที่เจอวันนั้นเข้ามาในคอมมิตที่ว่าด้วยเรื่องอื่น ไม่มีใครตัดสินใจเรื่องพวกนี้ แต่เซสชันหลังจากนั้นทุกตัวถือเป็นข้อบังคับ</p>
+<p class="lab">บทเรียน</p><p class="big">อ่านว่าคอมมิตนั้นทำมาเพื่ออะไร หลักการที่ติดมากับงานที่ไม่เกี่ยวกัน คือของที่คนเขียนคอมมิตคิดขึ้นเอง</p>
+<p class="lab">ที่ทำงานอยู่ตอนนี้</p><p class="nowp">ก่อนถือว่าบรรทัดที่ฟังดูเป็นหลักการเป็นของเธอ: git log -S “ข้อความนั้น” แล้วอ่านหัวข้อของคอมมิต</p></div><div class="toy" data-toy="accrete"></div></div>
+</article><!-- stylecheck: allow-end -->
+</section>
+
+<section class="band" id="band2" aria-hidden="true"><div class="bandtxt"><b>168</b><span>กฎที่เรียนรู้</span></div></section>
+
+<section class="wrap lessons">
+<article class="lesson" id="w10" style="--wk:10">
+<header class="lh"><div class="wk"><span>สัปดาห์</span><b>10</b></div>
+<div><p class="dates">12–18 ก.ย. · <span class="wkc">490 คอมมิต</span></p>
+<h3>ทุกคำถามที่ค้างมีค่าเริ่มต้นและวันที่</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">เกิดอะไรขึ้น</p><p>490 คอมมิต 375 คอมมิตในวันที่ 18 กันยายนวันเดียว วันที่ยุ่งที่สุดในร้อยวัน วันนั้น NaN ตอบตกลงการเปลี่ยนโครงสร้างห้าเรื่องพร้อมกัน ทุกคำถามที่ค้างตอนนี้มีบรรทัด “ถ้าเงียบ” คือทางที่ถูกกว่าและเงียบกว่า กับวันที่มันจะทำงาน 19 กันยายน เธอเลือกข้อ “ความเงียบตัดสินทุกอย่าง”</p>
+<p class="lab">บทเรียน</p><p class="big">คำถามที่ไม่มีค่าเริ่มต้นรอไปตลอด และขวางทุกอย่างที่ต่อคิวอยู่ข้างหลัง</p>
+<p class="lab">ที่ทำงานอยู่ตอนนี้</p><p class="nowp">ทุกคืนมีรอบที่ทำตามค่าเริ่มต้นที่ถึงกำหนด แล้วบันทึกไว้ทุกข้อ</p></div><div class="toy" data-toy="silence"></div></div>
+</article>
+<article class="lesson" id="w11" style="--wk:11">
+<header class="lh"><div class="wk"><span>สัปดาห์</span><b>11</b></div>
+<div><p class="dates">19–25 ก.ย. · <span class="wkc">374 คอมมิต</span></p>
+<h3>นับเอา ไม่ใช่อ้างเอา และนับจากเว็บที่ออนไลน์อยู่</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">เกิดอะไรขึ้น</p><p>รีวิวเว็บลูปแม่ฮ่องสอนครั้งเดียว เจอตัวเลขที่พิมพ์ลงในประโยคสี่จุด ผิดทั้งสี่ สัปดาห์เดียวกัน Google เก็บหน้า motdang.net ไว้ 4 หน้าจาก 98,153 หน้า ไซต์แมปมี 84,908 ที่อยู่ในไฟล์เดียว เพดานคือ 50,000 บันทึกเขียนว่า แก้แล้ว ไฟล์บนเว็บจริงไม่ได้เปลี่ยน</p><blockquote class="quote" lang="en"><p>“over promised, under delivered”</p><footer>NaN · 19 ก.ย.</footer></blockquote><!-- stylecheck: allow — her own words -->
+<p class="lab">บทเรียน</p><p class="big">ตัวเลขที่พิมพ์ลงในประโยคคือภาพถ่ายของบ่ายวันเดียว คำนวณในขั้นสร้างหน้า และตรวจไฟล์ที่โลกได้รับ ไม่ใช่ซอร์ส</p>
+<p class="lab">ที่ทำงานอยู่ตอนนี้</p><p class="nowp">ตัวเลขบนหน้าของเธอมาจากข้อมูลตอนสร้างหน้า ตัวเลขบนหน้านี้มาจาก tools/data.py</p></div><div class="toy" data-toy="count"></div></div>
+</article>
+<article class="lesson" id="w12" style="--wk:12">
+<header class="lh"><div class="wk"><span>สัปดาห์</span><b>12</b></div>
+<div><p class="dates">26 ก.ย.–2 ต.ค. · <span class="wkc">555 คอมมิต</span></p>
+<h3>ดิสก์กับมิเตอร์คือเพดาน</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">เกิดอะไรขึ้น</p><p>รีโปใหม่ 29 รีโป 555 คอมมิต 2 ตุลาคม แมคเหลือที่ว่าง 0.2 GB มิเตอร์การใช้งานก็บอกเรื่องเดียวกัน สัปดาห์ 24 กันยายน เซสชันที่อ่านรูปกินโควตาราว 60% ของสัปดาห์ ผู้ช่วยแต่ละตัวดูภาพเต็มขนาดราว 70 ภาพ สัปดาห์ 1 ตุลาคม เอเจนต์ผู้ช่วย 193 ตัว ใช้โมเดลใหญ่สุดทั้งหมด กินไป 49%</p>
+<p class="lab">บทเรียน</p><p class="big">นิสัยเดียวกินงบทั้งก้อน หาให้เจอก่อนซื้อเพิ่ม</p>
+<p class="lab">ที่ทำงานอยู่ตอนนี้</p><p class="nowp">diskkeeper ทำงานทุกสิบนาที เคลียร์หรือย้ายไฟล์ขึ้นคลาวด์ไปแล้ว 60.4 GB เอเจนต์ผู้ช่วยใช้โมเดลเล็กลงตั้งแต่ 5 ตุลาคม รูปผ่านรอบแรกแบบประหยัดที่หาสถานที่เจอ 33 จาก 34 แห่ง ใช้บริบทราวหนึ่งในสี่</p></div><div class="toy" data-toy="disk"></div></div>
+</article>
+<article class="lesson" id="w13" style="--wk:13">
+<header class="lh"><div class="wk"><span>สัปดาห์</span><b>13</b></div>
+<div><p class="dates">3–9 ต.ค. · <span class="wkc">542 คอมมิต</span></p>
+<h3>สำเนาเดียวเท่ากับไม่มีสำเนา</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">เกิดอะไรขึ้น</p><p>8 ตุลาคม 19:11 เอเจนต์ AI ตัวที่สอง Gemini หลังสร้างเว็บใหม่ไม่สำเร็จ “คืนทุกอย่างกลับที่เดิม” ด้วยการกู้เฉพาะไฟล์ที่ git ติดตาม ผลคือไฟล์ที่ git ไม่ได้ติดตามในรีโปมดแดงหายหมด ราว 17,900 ไฟล์ ในนั้นมีรูป 12,960 รูป และโมดูล 46 ตัวที่ขั้นสร้างหน้าเรียกใช้ และไฟล์ที่แก้ไว้ 175 ไฟล์ถูกรีเซ็ต ไม่มีอะไรอยู่ใน git เลย เซิร์ฟเวอร์สร้างหน้ามีสำเนาที่ซิงก์ไว้ตอน 08:23 เช้าวันนั้น สองนาทีก่อนเอเจนต์เริ่มงาน ถ้าซิงก์อีกรอบเดียว สำเนานั้นก็หายด้วย</p>
+<p class="lab">บทเรียน</p><p class="big">โฟลเดอร์ทำงานกับมิเรอร์ที่ลบตามกันไป นับเป็นสำเนาเดียว ต้องมีเวอร์ชันที่การซิงก์รอบถัดไปเอื้อมไม่ถึง</p>
+<p class="lab">ที่ทำงานอยู่ตอนนี้</p><p class="nowp">ทุกคืนมีสำเนาไปเก็บในกล่องเก็บข้อมูลแยก คำสั่ง git ที่แตะไฟล์ที่ไม่ได้ติดตามในรีโปนั้นต้องรอคำของ NaN Gemini ถูกปิดในวันเดียวกัน โควตาหมด</p></div><div class="toy" data-toy="wipe"></div></div>
+</article>
+<article class="lesson" id="w14" style="--wk:14">
+<header class="lh"><div class="wk"><span>สัปดาห์</span><b>14</b></div>
+<div><p class="dates">10–16 ต.ค. · <span class="wkc">594 คอมมิต</span></p>
+<h3>วัดก่อนเดา</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">เกิดอะไรขึ้น</p><p>สัปดาห์ที่ยุ่งที่สุด 594 คอมมิต ไม่มีการสร้างเว็บบนเซิร์ฟเวอร์ครั้งไหนจบได้ตั้งแต่ 5 ตุลาคม บันทึกบนแมคมีสร้างพัง 64 ครั้ง นำเข้าข้อมูลพัง 39 ครั้ง ดีพลอยพัง 21 ครั้ง ด่านตรวจก่อนเผยแพร่ปฏิเสธ 17 ครั้ง ดูเหมือนปัญหาคนละเรื่อง ตัวเก็บตัวอย่างที่ฝังเข้าไปในการสร้างที่กำลังรันพบว่า 96% ของ 939 วินาทีอยู่ในฟังก์ชันเดียว ที่อ่านไฟล์ 140 MB ใหม่ทุกครั้งที่วาดแผนที่ชั้นสินค้า อีกเรื่อง ตัวเฝ้าหน่วยความจำที่เอเจนต์อีกตัวเขียนไว้ ฆ่าขั้นนำเข้าทุกรอบ เพราะ macOS ปล่อยให้ swap เต็มอยู่นานหลังแรงกดหายไปแล้ว</p><blockquote class="quote" lang="en"><p>“We need builds to be successful every time.”</p><footer>NaN · 10 ต.ค.</footer></blockquote><!-- stylecheck: allow — her own words -->
+<p class="lab">บทเรียน</p><p class="big">ความล้มเหลวกองโตที่หน้าตาต่างกัน มีต้นเหตุไม่กี่อย่าง อ่านโปรไฟล์กับล็อกก่อนเดาครั้งต่อไป</p>
+<p class="lab">ที่ทำงานอยู่ตอนนี้</p><p class="nowp">ทุกการสร้างบนเซิร์ฟเวอร์เขียนโปรไฟล์ไว้ การอ่านไฟล์ครั้งเดียวแบบใช้ร่วมกันแทนการอ่านซ้ำ การสร้างใช้ราว 93 นาที จากเดิมราว 3.5 ชั่วโมง มินิไซต์เดียวเผยแพร่ได้ในไม่กี่วินาที</p></div><div class="toy" data-toy="flame"></div></div>
+</article>
+<article class="lesson" id="w15" style="--wk:15">
+<header class="lh"><div class="wk"><span>สัปดาห์</span><b>15</b></div>
+<div><p class="dates">17–21 ต.ค. · <span class="wkc">413 คอมมิต</span></p>
+<h3>สร้างของไม่ใช่การขายของ</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">เกิดอะไรขึ้น</p><p>ร้อยวัน รีโปสาธารณะ 125 รีโป เงินเข้า 50 ดอลลาร์ จากลูกค้ารายเดียว ข้อเสนอที่ส่งออกไป 13 ฉบับ ลิงก์ท่องเที่ยว 47 คลิก 0.00 ดอลลาร์ Quora 408,041 วิวใน 30 วัน 0 ดอลลาร์ บน motdang.net คำขอในหนึ่งสัปดาห์ 85% มาจากครอว์เลอร์ AI ที่ดูเป็นคนมี 0.4% วันที่ 21 ตุลาคม เป้าหมายเปลี่ยนเป็นเดือนที่เงินสดเป็นบวกหนึ่งเดือน 61,000 บาทเข้าใน 30 วัน งานภาพและวิดีโอไปอยู่กับคน คือ Marcus ตั้งแต่ 16 ตุลาคม</p><blockquote class="quote" lang="en"><p>“Nobody has actually paid ANY money to use motdang for anything.”</p><footer>NaN · 5 ก.ย.</footer></blockquote><!-- stylecheck: allow — her own words -->
+<p class="lab">บทเรียน</p><p class="big">การส่งงานนับเป็นคอมมิต รายได้นับเป็นข้อเสนอ: คนที่มีชื่อ ของที่เสร็จ ราคา และวันส่ง</p>
+<p class="lab">ที่ทำงานอยู่ตอนนี้</p><p class="nowp">สัปดาห์ละหนึ่งข้อเสนอ ทำจนเสร็จ แล้วรอคำเดียวจากเธอ บัญชีข้อเสนอนับไว้</p></div><div class="toy" data-toy="funnel"></div></div>
+</article>
+</section>
+
+<section class="tattler" id="tattler">
+<div class="ticker" aria-hidden="true"><div><span>ขั้นสร้างเว็บเผยโฟลเดอร์บ้านเจ้าของ ★ บอทเขียนหลักการโฆษณา บอทตัวอื่นอ้างเป็นกฎหมาย ★ โมเดลแต่งระยะทางขึ้นมาสามค่า ★ สี่นาที ★ 375 คอมมิตในวันเดียว ★ สเครเปอร์ปลอมตัวเป็น Chrome ★ บน GitHub ไม่มีคนเลย ★ สร้างใหม่ครั้งเดียว การ์ดแชร์หาย 77 ใบ ★ เอเจนต์โอเพนเวต: เก้าหน้าใน 621 วินาที ★ หมาเฝ้าบ้านกัดงานสร้างเว็บ ★ นักวิจารณ์สามตัว 23 ครั้ง ไม่ได้สร้างอะไร ★ บอทขายถนนให้เรา แต่อีกบอทขายมาก่อน ★ </span><span>ขั้นสร้างเว็บเผยโฟลเดอร์บ้านเจ้าของ ★ บอทเขียนหลักการโฆษณา บอทตัวอื่นอ้างเป็นกฎหมาย ★ โมเดลแต่งระยะทางขึ้นมาสามค่า ★ สี่นาที ★ 375 คอมมิตในวันเดียว ★ สเครเปอร์ปลอมตัวเป็น Chrome ★ บน GitHub ไม่มีคนเลย ★ สร้างใหม่ครั้งเดียว การ์ดแชร์หาย 77 ใบ ★ เอเจนต์โอเพนเวต: เก้าหน้าใน 621 วินาที ★ หมาเฝ้าบ้านกัดงานสร้างเว็บ ★ นักวิจารณ์สามตัว 23 ครั้ง ไม่ได้สร้างอะไร ★ บอทขายถนนให้เรา แต่อีกบอทขายมาก่อน ★ </span></div></div>
+<div class="wrap"><h2>ข่าวซุบซิบบอท</h2><p class="note">ซุบซิบเรื่องบอท มีที่มาทุกข่าว แตะข่าวเพื่อดูหลักฐาน</p>
+<ul class="stories"><li class="story" tabindex="0" style="--i:0"><time>13 ก.ค.</time><h4>ขั้นสร้างเว็บเผยโฟลเดอร์บ้านเจ้าของ</h4><p>ไฟล์สถานะของ wichaa.net พิมพ์พาธเต็มของเครื่องที่สร้างเว็บ รวมชื่อผู้ใช้ด้วย ตอนนี้มีด่านหยุดการเผยแพร่ที่มี /Users/ และประวัติรีโปถูกเขียนใหม่</p></li><li class="story" tabindex="0" style="--i:1"><time>31 ก.ค.</time><h4>บอทเขียนหลักการโฆษณา บอทตัวอื่นอ้างเป็นกฎหมาย</h4><p>เซสชันหนึ่งเขียน “ไม่มีอะไรขายนอกจากช่องโฆษณา” ลงในบันทึกของเอเจนต์ ห้าสัปดาห์ที่เซสชันต่อ ๆ มาปฏิเสธลิงก์แอฟฟิลิเอตเพราะประโยคนี้ NaN ใช้ลิงก์แอฟฟิลิเอต</p></li><li class="story" tabindex="0" style="--i:2"><time>5 ก.ย.</time><h4>โมเดลแต่งระยะทางขึ้นมาสามค่า</h4><p>พรอมต์บอกว่าคำนวณระยะทางให้ทุกร้านแล้ว ไม่มีร้านไหนมีหมุดบนแผนที่เลย โมเดลเขียน “ราว 1.1 กม.” “1.2 กม.” “1.3 กม.” ทั้งที่พรอมต์เดียวกันห้ามเดา ข้ออ้างชนะข้อห้าม</p></li><li class="story" tabindex="0" style="--i:3"><time>5 ก.ย.</time><h4>สี่นาที</h4><p>ระหว่างที่เซสชันหนึ่งดูรายชื่อไฟล์ในโฟลเดอร์กับตอนที่มันเปิดอ่าน อีกเซสชันส่งเลเยอร์ /api/v1 ขึ้นทั้งชุดและเริ่มสร้างเว็บไปแล้ว NaN เรียกมันว่า หอคอย</p></li><li class="story" tabindex="0" style="--i:4"><time>18 ก.ย.</time><h4>375 คอมมิตในวันเดียว</h4><p>วันที่ยุ่งที่สุดในร้อยวัน วันกลาง ๆ มี 29</p></li><li class="story" tabindex="0" style="--i:5"><time>16–22 ก.ย.</time><h4>สเครเปอร์ปลอมตัวเป็น Chrome</h4><p>สตริงเวอร์ชัน Chrome 18 แบบ แบบละราว 3,700 คำขอ ยิงห้าหน้าเดิมบน motdang.net บน wichaa.net เบราว์เซอร์ไร้หน้าจอตัวเดียวอ่านหน้าคัมภีร์ 388 หน้า หน้าละ 17 ครั้งพอดี</p></li><li class="story" tabindex="0" style="--i:6"><time>23 ก.ย.</time><h4>บน GitHub ไม่มีคนเลย</h4><p>สถิติ GitHub สิบสี่วัน: 0 ดาว 0 ผู้ติดตาม 0 วิวจากคนในทุกรีโป ที่โคลนไปคือเครื่องจักร</p></li><li class="story" tabindex="0" style="--i:7"><time>23 ก.ย.</time><h4>สร้างใหม่ครั้งเดียว การ์ดแชร์หาย 77 ใบ</h4><p>การดีพลอยบางส่วนลบทุกอย่างในโฟลเดอร์ที่มันไม่ได้สร้าง สูตรสร้างลูปใหม่ขาดขั้นทำการ์ด แก้ภายในชั่วโมงเดียว</p></li><li class="story" tabindex="0" style="--i:8"><time>26 ก.ย.</time><h4>เอเจนต์โอเพนเวต: เก้าหน้าใน 621 วินาที</h4><p>เว็บสามเหลี่ยมทองคำ สร้างโดยโมเดลโอเพนเวตจากบรีฟ แล้วเผยแพร่ การเรียกโมเดลโอเพนเวตทั้ง 762 ครั้งจนถึงวันนี้ รวม 0.76 ดอลลาร์</p></li><li class="story" tabindex="0" style="--i:9"><time>7–10 ต.ค.</time><h4>หมาเฝ้าบ้านกัดงานสร้างเว็บ</h4><p>ตัวเฝ้าหน่วยความจำที่เอเจนต์อีกตัวเขียน ฆ่าโปรเซส Python ตัวใหญ่สุดทุกครั้งที่ swap เกิน 6 GB macOS ปล่อย swap เต็มไว้ มันเลยฆ่าขั้นนำเข้าทุกรอบตั้งแต่ 10:37 ถึง 12:01</p></li><li class="story" tabindex="0" style="--i:10"><time>12 ต.ค.</time><h4>นักวิจารณ์สามตัว 23 ครั้ง ไม่ได้สร้างอะไร</h4><p>สภานักวิจารณ์เอเจนต์สามตัวเถียงเรื่องพื้นที่แตะ เสียงสั่น และไอดีขององค์ประกอบอยู่หนึ่งชั่วโมงโดยไม่สร้างอะไรเลย NaN: “just finish up.” ตัวหลักสร้างตามแผนฉบับที่สามของสภา</p></li><li class="story" tabindex="0" style="--i:11"><time>17–19 ต.ค.</time><h4>บอทขายถนนให้เรา แต่อีกบอทขายมาก่อน</h4><p>Briefcraft Lab บอทจากเกาหลีใต้ ส่งข้อมูลงานถนนมาหนึ่งแถว ได้ 100 บาท แล้วกล่องรับเรื่องก็เจอ dot ที่ส่งแถวเดียวกันมาตั้งแต่คืนก่อน 23:19 จ่ายทั้งคู่ NaN: “let’s not make this category of errors again.”</p></li></ul></div>
+</section>
+
+<footer class="foot wrap">
+<div class="sharebar" data-url="https://nanobotco.github.io/100-days/th/" data-title="100 วันแห่งการไวบ์โค้ดสุดบ้า"><b>แชร์</b></div>
+<h2>ที่มา</h2><p>คอมมิต: ทุกรีโป git ใน ~/Developer/claude code projects ตัดซ้ำด้วยแฮช รีโป: บัญชี GitHub NaNoBotCo กฎ: ไฟล์ความจำประเภท feedback นับตามวันที่เขียน การตัดสินใจ ดิสก์ การเคลียร์ไฟล์ การเสนอขาย เงินเข้า และการเรียกโมเดลโอเพนเวต: บัญชีบันทึกใน ~/.claude/state เหตุการณ์: บันทึกความจำที่เขียนไว้ตอนเกิดเรื่อง tools/data.py นับใหม่ทั้งหมดทุกครั้งที่สร้างหน้า</p>
+<p>ข้อความ CC BY 4.0 โค้ด MIT · <a href="https://github.com/NaNoBotCo/100-days">ซอร์สบน GitHub</a> · <a href="https://nanobotco.github.io/100-days/llms.txt">llms.txt</a></p>
+</footer>
+<script id="boot" type="application/json">{"lang":"th","m":{"lang":"th","locale":"th_TH","title":"100 วันแห่งการไวบ์โค้ดสุดบ้า","kicker":"บทเรียนที่ได้","desc":"สิบห้าสัปดาห์ของการสร้างงานกับเอเจนต์ AI สัปดาห์ละหนึ่งบทเรียน ทุกตัวเลขนับจาก git และบัญชีบันทึก: 4,585 คอมมิต 166 กฎ เงินเข้า 50 ดอลลาร์ มีกราฟ ข่าวซุบซิบ และของเล่น","card_line":"15 สัปดาห์ · 15 บทเรียน · นับจาก git","byline":"NaN · NaNoBotCo · เชียงใหม่","other":"EN","other_href":"../","dayword":"วันที่","of":"จาก","lede":"วันที่ 1 คือ 11 กรกฎาคม 2026 วันคอมมิตแรก ตั้งแต่นั้นมา ฝูงเซสชัน AI เขียนโค้ดสร้างเว็บ แผนที่ เกม และเครื่องมือให้ NaN แทบไม่หยุด ทุกสัปดาห์มีราคาที่ต้องจ่าย หน้านี้คือใบเสร็จ สัปดาห์ละหนึ่งบทเรียน นับจากประวัติ git และบัญชีบันทึกในเครื่องแมค ณ วันที่สร้างหน้านี้","stat_commits":"คอมมิต","stat_repos":"รีโปบน GitHub","stat_rules":"กฎที่เรียนรู้","stat_usd":"เงินเข้า","skyline":"คอมมิตต่อวัน แตะที่แท่งได้","toc":"สิบห้าสัปดาห์","weeks_h":"แต่ละสัปดาห์ในสามตัวเลข","weeks_note":"สัปดาห์เดียวกัน สามกราฟ แต่ละกราฟมีสเกลของตัวเอง แตะสัปดาห์เพื่อไปที่บทเรียน สัปดาห์ที่ 15 มีห้าวัน","c_commits":"คอมมิต","c_rules":"กฎที่จดไว้","c_repos":"รีโปใหม่บน GitHub","week":"สัปดาห์","happened":"เกิดอะไรขึ้น","lesson":"บทเรียน","now":"ที่ทำงานอยู่ตอนนี้","tattler":"ข่าวซุบซิบบอท","tattler_sub":"ซุบซิบเรื่องบอท มีที่มาทุกข่าว แตะข่าวเพื่อดูหลักฐาน","ledger_h":"บัญชีบันทึก","table":"ตาราง","date":"วันที่","count":"จำนวน","share":"แชร์","copy":"คัดลอกลิงก์","copied":"คัดลอกแล้ว","sources_h":"ที่มา","sources":"คอมมิต: ทุกรีโป git ใน ~/Developer/claude code projects ตัดซ้ำด้วยแฮช รีโป: บัญชี GitHub NaNoBotCo กฎ: ไฟล์ความจำประเภท feedback นับตามวันที่เขียน การตัดสินใจ ดิสก์ การเคลียร์ไฟล์ การเสนอขาย เงินเข้า และการเรียกโมเดลโอเพนเวต: บัญชีบันทึกใน ~/.claude/state เหตุการณ์: บันทึกความจำที่เขียนไว้ตอนเกิดเรื่อง tools/data.py นับใหม่ทั้งหมดทุกครั้งที่สร้างหน้า","licence":"ข้อความ CC BY 4.0 โค้ด MIT","source_link":"ซอร์สบน GitHub","built":"นับเมื่อ"},"weeks":[{"w":1,"dates":"11–17 ก.ค.","title":"รายการข้างมือไม่ใช่ประชากรทั้งหมด"},{"w":2,"dates":"18–24 ก.ค.","title":"โฟลเดอร์ที่เปิดเซสชันชนะคำขอ"},{"w":3,"dates":"25–31 ก.ค.","title":"ตั้งชื่อคำติดปากของโมเดล แล้วให้เครื่องจับ"},{"w":4,"dates":"1–7 ส.ค.","title":"ทำธุระผ่านของที่ตัวเองสร้าง"},{"w":5,"dates":"8–14 ส.ค.","title":"บอทแต่งกฎเอง แล้วเซ็นชื่อคุณ"},{"w":6,"dates":"15–21 ส.ค.","title":"งานที่ยังไม่คอมมิต คืองานที่ยังไม่ได้เซฟ"},{"w":7,"dates":"22–28 ส.ค.","title":"คัดแยกฝั่งเราเอง"},{"w":8,"dates":"29 ส.ค.–4 ก.ย.","title":"คำน้อยลง ทุกครั้ง"},{"w":9,"dates":"5–11 ก.ย.","title":"ผลข้างเคียงแข็งตัวกลายเป็นจุดยืน"},{"w":10,"dates":"12–18 ก.ย.","title":"ทุกคำถามที่ค้างมีค่าเริ่มต้นและวันที่"},{"w":11,"dates":"19–25 ก.ย.","title":"นับเอา ไม่ใช่อ้างเอา และนับจากเว็บที่ออนไลน์อยู่"},{"w":12,"dates":"26 ก.ย.–2 ต.ค.","title":"ดิสก์กับมิเตอร์คือเพดาน"},{"w":13,"dates":"3–9 ต.ค.","title":"สำเนาเดียวเท่ากับไม่มีสำเนา"},{"w":14,"dates":"10–16 ต.ค.","title":"วัดก่อนเดา"},{"w":15,"dates":"17–21 ต.ค.","title":"สร้างของไม่ใช่การขายของ"}],"d":{"day0":"2026-07-11","today":"2026-10-21","days":103,"daily":[8,29,36,29,23,6,29,30,29,12,8,80,19,35,57,34,56,54,40,52,32,44,46,45,48,49,40,51,2,1,9,1,19,14,10,8,5,45,12,15,11,28,9,9,6,15,17,20,14,13,20,26,14,20,21,19,14,29,52,24,27,26,25,14,10,0,14,49,28,375,65,5,14,79,131,5,75,123,96,145,76,40,31,44,102,192,56,93,69,20,10,85,103,114,83,37,50,122,60,37,75,201,40],"weekly":[160,213,325,323,56,124,90,133,197,490,374,555,542,594,413],"commits":4589,"top_day":["2026-09-18",375],"repos_weekly":[1,26,13,1,0,0,0,0,0,10,15,29,18,11,6],"repos":130,"public":125,"rules_weekly":[1,7,5,3,8,11,2,21,21,6,18,15,12,26,9],"rules_before":3,"rules":168,"decisions":71,"by_her":17,"by_silence":54,"decisions_from":"2026-09-19","decision_list":[["2026-09-19","her"],["2026-09-25","her"],["2026-09-26","her"],["2026-09-30","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-03","silence"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-06","silence"],["2026-10-06","silence"],["2026-10-06","silence"],["2026-10-06","silence"],["2026-10-06","silence"],["2026-10-06","silence"],["2026-10-06","silence"],["2026-10-06","silence"],["2026-10-07","silence"],["2026-10-07","silence"],["2026-10-07","silence"],["2026-10-07","silence"],["2026-10-07","silence"],["2026-10-07","silence"],["2026-10-07","silence"],["2026-10-07","silence"],["2026-10-09","silence"],["2026-10-10","silence"],["2026-10-10","silence"],["2026-10-10","silence"],["2026-10-10","silence"],["2026-10-10","silence"],["2026-10-10","silence"],["2026-10-10","silence"],["2026-10-10","silence"],["2026-10-16","her"],["2026-10-16","her"],["2026-10-16","her"]],"disk":[["2026-09-27",2.5],["2026-09-28",5.3],["2026-09-29",2.4],["2026-09-30",6.6],["2026-10-01",4.2],["2026-10-02",0.2],["2026-10-03",7.6],["2026-10-04",1.8],["2026-10-05",0.2],["2026-10-06",0.3],["2026-10-07",1.7],["2026-10-08",11.4],["2026-10-09",26.8],["2026-10-10",16.0],["2026-10-11",11.9],["2026-10-12",6.8],["2026-10-13",5.7],["2026-10-14",11.1],["2026-10-15",16.0],["2026-10-16",6.1],["2026-10-17",4.3],["2026-10-18",8.8],["2026-10-19",3.7],["2026-10-20",1.0],["2026-10-21",0.4]],"disk_min":0.2,"swept_gb":60.4,"ow_calls":762,"ow_usd":0.76,"asks":13,"usd_in":50.0}}</script>
+<script src="../app.js" defer></script>
+</body></html>

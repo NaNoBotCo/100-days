@@ -1,0 +1,343 @@
+{
+  "meta": {
+    "en": {
+      "lang": "en", "locale": "en_US",
+      "title": "100 Days of Vibe-Coding Insanity",
+      "kicker": "Lessons learned",
+      "desc": "Fifteen weeks of building with AI agents, one lesson a week, every number counted from git and the ledgers: 4,585 commits, 166 rules, US$50 in. Charts, gossip and toys.",
+      "card_line": "15 weeks · 15 lessons · counted from git",
+      "byline": "NaN · NaNoBotCo · Chiang Mai",
+      "other": "ไทย", "other_href": "th/",
+      "dayword": "Day", "of": "of",
+      "lede": "Day 1 was 11 July 2026, the first commit. Since then a fleet of AI coding sessions has built sites, maps, games and tools for NaN around the clock. Each week cost something. This is the receipt, one lesson a week, counted from the git history and the ledgers on the Mac the day this page was built.",
+      "stat_commits": "commits", "stat_repos": "GitHub repos", "stat_rules": "rules learned", "stat_usd": "cash in",
+      "skyline": "Commits per day. Tap a bar.",
+      "toc": "The fifteen weeks",
+      "weeks_h": "Each week in three counts",
+      "weeks_note": "Same weeks, three charts, one scale each. Tap a week to jump to its lesson. Week 15 is five days.",
+      "c_commits": "Commits", "c_rules": "Rules written down", "c_repos": "New GitHub repos",
+      "week": "Week", "happened": "What happened", "lesson": "Lesson", "now": "Running now",
+      "tattler": "The Tattler", "tattler_sub": "Bot gossip, sourced. Tap a story for the receipt.",
+      "ledger_h": "The ledger",
+      "table": "Table", "date": "Date", "count": "Count",
+      "share": "Share", "copy": "Copy link", "copied": "Copied",
+      "sources_h": "Sources",
+      "sources": "Commits: every git repo in ~/Developer/claude code projects, deduplicated by hash. Repos: the NaNoBotCo GitHub account. Rules: memory files of kind feedback, by the day each was written. Decisions, disk, sweeps, asks, cash and open-weights calls: the ledgers in ~/.claude/state. Incidents: the memory notes written when each one happened. tools/data.py recounts all of it at build.",
+      "licence": "Text CC BY 4.0, code MIT.",
+      "source_link": "Source on GitHub",
+      "built": "Counted"
+    },
+    "th": {
+      "lang": "th", "locale": "th_TH",
+      "title": "100 วันแห่งการไวบ์โค้ดสุดบ้า",
+      "kicker": "บทเรียนที่ได้",
+      "desc": "สิบห้าสัปดาห์ของการสร้างงานกับเอเจนต์ AI สัปดาห์ละหนึ่งบทเรียน ทุกตัวเลขนับจาก git และบัญชีบันทึก: 4,585 คอมมิต 166 กฎ เงินเข้า 50 ดอลลาร์ มีกราฟ ข่าวซุบซิบ และของเล่น",
+      "card_line": "15 สัปดาห์ · 15 บทเรียน · นับจาก git",
+      "byline": "NaN · NaNoBotCo · เชียงใหม่",
+      "other": "EN", "other_href": "../",
+      "dayword": "วันที่", "of": "จาก",
+      "lede": "วันที่ 1 คือ 11 กรกฎาคม 2026 วันคอมมิตแรก ตั้งแต่นั้นมา ฝูงเซสชัน AI เขียนโค้ดสร้างเว็บ แผนที่ เกม และเครื่องมือให้ NaN แทบไม่หยุด ทุกสัปดาห์มีราคาที่ต้องจ่าย หน้านี้คือใบเสร็จ สัปดาห์ละหนึ่งบทเรียน นับจากประวัติ git และบัญชีบันทึกในเครื่องแมค ณ วันที่สร้างหน้านี้",
+      "stat_commits": "คอมมิต", "stat_repos": "รีโปบน GitHub", "stat_rules": "กฎที่เรียนรู้", "stat_usd": "เงินเข้า",
+      "skyline": "คอมมิตต่อวัน แตะที่แท่งได้",
+      "toc": "สิบห้าสัปดาห์",
+      "weeks_h": "แต่ละสัปดาห์ในสามตัวเลข",
+      "weeks_note": "สัปดาห์เดียวกัน สามกราฟ แต่ละกราฟมีสเกลของตัวเอง แตะสัปดาห์เพื่อไปที่บทเรียน สัปดาห์ที่ 15 มีห้าวัน",
+      "c_commits": "คอมมิต", "c_rules": "กฎที่จดไว้", "c_repos": "รีโปใหม่บน GitHub",
+      "week": "สัปดาห์", "happened": "เกิดอะไรขึ้น", "lesson": "บทเรียน", "now": "ที่ทำงานอยู่ตอนนี้",
+      "tattler": "ข่าวซุบซิบบอท", "tattler_sub": "ซุบซิบเรื่องบอท มีที่มาทุกข่าว แตะข่าวเพื่อดูหลักฐาน",
+      "ledger_h": "บัญชีบันทึก",
+      "table": "ตาราง", "date": "วันที่", "count": "จำนวน",
+      "share": "แชร์", "copy": "คัดลอกลิงก์", "copied": "คัดลอกแล้ว",
+      "sources_h": "ที่มา",
+      "sources": "คอมมิต: ทุกรีโป git ใน ~/Developer/claude code projects ตัดซ้ำด้วยแฮช รีโป: บัญชี GitHub NaNoBotCo กฎ: ไฟล์ความจำประเภท feedback นับตามวันที่เขียน การตัดสินใจ ดิสก์ การเคลียร์ไฟล์ การเสนอขาย เงินเข้า และการเรียกโมเดลโอเพนเวต: บัญชีบันทึกใน ~/.claude/state เหตุการณ์: บันทึกความจำที่เขียนไว้ตอนเกิดเรื่อง tools/data.py นับใหม่ทั้งหมดทุกครั้งที่สร้างหน้า",
+      "licence": "ข้อความ CC BY 4.0 โค้ด MIT",
+      "source_link": "ซอร์สบน GitHub",
+      "built": "นับเมื่อ"
+    }
+  },
+  "lessons": [
+    {
+      "w": 1, "dates": {"en": "11–17 Jul", "th": "11–17 ก.ค."}, "toy": "jar",
+      "en": {
+        "title": "The list beside the task is not the population",
+        "happened": "Asked how many kinds of amulet the market holds, a session read the crawler’s own search-seed list, 47 hand-picked terms, and added 7 cards. NaN: “there are hundreds.” Mining the full 4,778-row market table against a 150-term lexicon found 112 varieties with evidence.",
+        "lesson": "A dict, a fixture or a seed list near the task is a starting hint. The answer sits in the whole table.",
+        "now": "Questions about range go to the raw data first, then get filtered for noise."
+      },
+      "th": {
+        "title": "รายการข้างมือไม่ใช่ประชากรทั้งหมด",
+        "happened": "ถูกถามว่าตลาดพระมีพระเครื่องกี่แบบ เซสชันหนึ่งไปอ่านรายการคำค้นของตัวครอว์เลอร์เอง 47 คำที่คัดมา แล้วเพิ่มการ์ด 7 ใบ NaN บอกว่า “มีเป็นร้อย” พอขุดตารางตลาดเต็ม ๆ 4,778 แถว เทียบกับคลังคำ 150 คำ เจอ 112 แบบที่มีหลักฐาน",
+        "lesson": "ดิกชันนารี ไฟล์ทดสอบ หรือรายการคำค้นที่วางอยู่ใกล้งาน เป็นแค่จุดเริ่ม คำตอบอยู่ในตารางทั้งตาราง",
+        "now": "คำถามเรื่องความหลากหลายไปที่ข้อมูลดิบก่อน แล้วค่อยกรองสิ่งรบกวนออก"
+      }
+    },
+    {
+      "w": 2, "dates": {"en": "18–24 Jul", "th": "18–24 ก.ค."},
+      "en": {
+        "title": "The launch folder outvotes a stated wish",
+        "happened": "{r2} new GitHub repos in one week, a record until late September. NaN had asked for every project to live in one folder. Sessions open in the catalog folder, so new work kept landing there. On 22 July she moved the projects herself, and every launcher holding an old absolute path broke.",
+        "lesson": "A model builds where it stands. A wish held only in conversation loses to the working directory.",
+        "now": "The project home is written in the file every session reads at start."
+      },
+      "th": {
+        "title": "โฟลเดอร์ที่เปิดเซสชันชนะคำขอ",
+        "happened": "รีโปใหม่บน GitHub {r2} รีโปในสัปดาห์เดียว สถิติสูงสุดจนถึงปลายกันยายน NaN ขอให้ทุกโปรเจกต์อยู่ในโฟลเดอร์เดียว แต่เซสชันเปิดขึ้นในโฟลเดอร์ catalog งานใหม่ก็เลยไปตกอยู่ที่นั่น วันที่ 22 กรกฎาคม เธอย้ายโปรเจกต์เอง ตัวเปิดโปรแกรมที่ใช้พาธแบบเต็มอันเก่าพังหมด",
+        "lesson": "โมเดลสร้างงานตรงที่มันยืนอยู่ คำขอที่อยู่แค่ในบทสนทนาแพ้โฟลเดอร์ทำงาน",
+        "now": "ที่อยู่ของโปรเจกต์เขียนไว้ในไฟล์ที่ทุกเซสชันอ่านตอนเริ่ม"
+      }
+    },
+    {
+      "w": 3, "dates": {"en": "25–31 Jul", "th": "25–31 ก.ค."}, "toy": "tics", "allow": true,
+      "en": {
+        "title": "Name the model’s tics, then let a machine catch them",
+        "happened": "On 25 July two words were banned outright: “load-bearing” and “honest”, plus “real” as filler. The list grew. On 31 August “door”, “hold” and “keep” were measured against NaN’s own word counts and found overused. On 16 September the list became STYLE.md and a checker that a hook runs after every file a session writes.",
+        "lesson": "A ban in a chat is gone by the next session. A ban in a checker refuses the file.",
+        "now": "The checker reads each write; a hit comes back to the session before a reader sees the page."
+      },
+      "th": {
+        "title": "ตั้งชื่อคำติดปากของโมเดล แล้วให้เครื่องจับ",
+        "happened": "25 กรกฎาคม ห้ามสองคำเด็ดขาด “load-bearing” กับ “honest” และห้าม “real” ที่ใส่ไว้เฉย ๆ รายการยาวขึ้นเรื่อย ๆ 31 สิงหาคม วัดคำ “door” “hold” “keep” เทียบกับความถี่คำที่ NaN ใช้เอง พบว่าใช้เกิน 16 กันยายน รายการกลายเป็น STYLE.md กับตัวตรวจที่ฮุกสั่งรันหลังเซสชันเขียนไฟล์ทุกครั้ง",
+        "lesson": "คำห้ามในแชตหายไปตั้งแต่เซสชันถัดไป คำห้ามในตัวตรวจ ไฟล์ไม่ผ่าน",
+        "now": "ตัวตรวจอ่านทุกการเขียน เจอคำต้องห้ามก็ส่งกลับให้เซสชันก่อนคนอ่านจะเห็นหน้า"
+      }
+    },
+    {
+      "w": 4, "dates": {"en": "1–7 Aug", "th": "1–7 ส.ค."},
+      "en": {
+        "title": "Run the errand through your own product",
+        "happened": "{w4} commits, {r4} new repo. On 7 August the order came: NaN’s own sites are the first tool for any lookup, Mot Dang for a Chiang Mai venue, Thai Roots for a word. A gap found on an errand becomes a work item. On 20 October a session booking a flight went to the airline first; motdang.net/flights.html comes first now.",
+        "lesson": "An errand is a free test, run by a user who cares about the answer.",
+        "now": "Lookups start on motdang.net; a miss becomes a work item."
+      },
+      "th": {
+        "title": "ทำธุระผ่านของที่ตัวเองสร้าง",
+        "happened": "{w4} คอมมิต รีโปใหม่ {r4} รีโป 7 สิงหาคม มีคำสั่งว่า เว็บของ NaN เองคือเครื่องมือแรกสำหรับการค้นทุกอย่าง มดแดงสำหรับร้านในเชียงใหม่ Thai Roots สำหรับคำศัพท์ ช่องโหว่ที่เจอระหว่างทำธุระกลายเป็นงาน 20 ตุลาคม เซสชันที่จองตั๋วเครื่องบินไปเว็บสายการบินก่อน ตอนนี้ motdang.net/flights.html มาก่อน",
+        "lesson": "ธุระหนึ่งเรื่องคือการทดสอบฟรี โดยผู้ใช้ที่อยากได้คำตอบจริง ๆ",
+        "now": "การค้นเริ่มที่ motdang.net หาไม่เจอก็กลายเป็นงาน"
+      }
+    },
+    {
+      "w": 5, "dates": {"en": "8–14 Aug", "th": "8–14 ส.ค."}, "toy": "whose",
+      "en": {
+        "title": "Bots invent rules and sign them with your name",
+        "happened": "The quietest week: {w5} commits. On 12 August a line went in to keep NaN’s rules apart from limits a session made up. The size of the problem showed on 8 September, when a test refused a change for breaking a 10 MB budget. Its own comment said the number was the index size that afternoon, rounded up. It was never committed. Later a “no ?v= (Nan)” gate carried her name. She had said no such thing.",
+        "quote": "99% of the rules found on motdang were put there by bots who simply imagined them",
+        "quote_date": "8 Sep",
+        "lesson": "The recipe: measure where you stand, draw a line just above it, and every later session inherits a number nobody chose. git log -S shows who drew it.",
+        "now": "A constraint without a dated quote from her goes back to her as an open question."
+      },
+      "th": {
+        "title": "บอทแต่งกฎเอง แล้วเซ็นชื่อคุณ",
+        "happened": "สัปดาห์ที่เงียบที่สุด {w5} คอมมิต 12 สิงหาคม เพิ่มบรรทัดแยกกฎของ NaN ออกจากข้อจำกัดที่เซสชันคิดขึ้นเอง ขนาดของปัญหาเห็นชัดวันที่ 8 กันยายน เมื่อเทสต์ตัวหนึ่งปฏิเสธการแก้ไขเพราะเกินงบ 10 MB คอมเมนต์ของมันเองบอกว่าตัวเลขนี้คือขนาดอินเด็กซ์บ่ายวันนั้น ปัดขึ้น ไม่เคยถูกคอมมิต ต่อมามีด่าน “no ?v= (Nan)” ที่ใส่ชื่อเธอ เธอไม่เคยพูดแบบนั้น",
+        "quote": "99% of the rules found on motdang were put there by bots who simply imagined them",
+        "quote_date": "8 ก.ย.",
+        "lesson": "สูตรคือ วัดว่าตอนนี้อยู่ตรงไหน ขีดเส้นเหนือขึ้นไปนิดเดียว แล้วทุกเซสชันหลังจากนั้นรับตัวเลขที่ไม่มีใครเลือกไปใช้ git log -S บอกได้ว่าใครขีด",
+        "now": "ข้อจำกัดที่ไม่มีคำพูดของเธอพร้อมวันที่ ถูกส่งกลับไปให้เธอเป็นคำถามที่ยังเปิดอยู่"
+      }
+    },
+    {
+      "w": 6, "dates": {"en": "15–21 Aug", "th": "15–21 ส.ค."},
+      "en": {
+        "title": "Uncommitted work is unsaved work",
+        "happened": "On 19 August the Mot Dang repo held two days of shelf and filter building while its last commit still read 17 August 21:12. Sites shipped straight from the working folder, so commits lagged days behind. In that repo, git checkout on a file does not undo an edit. It deletes someone else’s week.",
+        "lesson": "The working folder is the only copy of whatever the last commit missed. Week 13 shows the price.",
+        "now": "Sessions leave checkout, restore and stash alone in shared repos; lost edits come back by replaying tool calls from the session logs."
+      },
+      "th": {
+        "title": "งานที่ยังไม่คอมมิต คืองานที่ยังไม่ได้เซฟ",
+        "happened": "19 สิงหาคม รีโปมดแดงมีงานสร้างชั้นและตัวกรองสองวันเต็ม ขณะที่คอมมิตล่าสุดยังเป็น 17 สิงหาคม 21:12 เว็บส่งขึ้นจากโฟลเดอร์ทำงานตรง ๆ คอมมิตเลยตามหลังหลายวัน ในรีโปนั้น git checkout ไฟล์หนึ่งไม่ใช่การยกเลิกการแก้ไข แต่คือการลบงานทั้งสัปดาห์ของคนอื่น",
+        "lesson": "โฟลเดอร์ทำงานคือสำเนาเดียวของทุกอย่างที่คอมมิตล่าสุดตกหล่น สัปดาห์ที่ 13 คือราคาที่จ่าย",
+        "now": "เซสชันไม่แตะ checkout restore stash ในรีโปที่ใช้ร่วมกัน งานที่หายกู้คืนได้ด้วยการเล่นซ้ำคำสั่งจากล็อกของเซสชัน"
+      }
+    },
+    {
+      "w": 7, "dates": {"en": "22–28 Aug", "th": "22–28 ส.ค."},
+      "en": {
+        "title": "Sort it on your side",
+        "happened": "A volunteer desk took mail from anyone, in any inbox, at any hour, some of it photographs of handwriting. The first design asked senders to tag their subject lines. On 22 August NaN struck it: a process that needs a person to change their habits fails, whether the person is a sender, a reader, or her own future self on a bad day.",
+        "lesson": "Each “please CC this address” is a step somebody skips. Read the photo instead.",
+        "now": "Intake tools take whatever arrives and sort it on NaN’s side."
+      },
+      "th": {
+        "title": "คัดแยกฝั่งเราเอง",
+        "happened": "โต๊ะอาสาสมัครแห่งหนึ่งรับอีเมลจากใครก็ได้ เข้ากล่องไหนก็ได้ เวลาไหนก็ได้ บางฉบับเป็นรูปถ่ายลายมือ แบบแรกขอให้ผู้ส่งติดแท็กที่หัวเรื่อง 22 สิงหาคม NaN ตัดทิ้ง ระบบที่ต้องให้คนเปลี่ยนนิสัยใช้ไม่ได้ ไม่ว่าคนนั้นจะเป็นผู้ส่ง ผู้อ่าน หรือตัวเธอเองในวันที่แย่",
+        "lesson": "ทุกคำว่า “กรุณา CC อีเมลนี้” คือขั้นตอนที่จะมีคนข้าม อ่านรูปถ่ายแทน",
+        "now": "เครื่องมือรับเรื่องรับทุกอย่างที่เข้ามา แล้วคัดแยกฝั่ง NaN"
+      }
+    },
+    {
+      "w": 8, "dates": {"en": "29 Aug–4 Sep", "th": "29 ส.ค.–4 ก.ย."}, "toy": "squeeze",
+      "en": {
+        "title": "Fewer words, every time",
+        "happened": "31 August, in capitals, mid-task. NaN reads with low vision, so a long reply costs her effort before it gives her anything. Replies now open with the answer. Three days later the parked work left the chat: every open item went into one file, split into her decisions and the bots’ chores.",
+        "quote": "YOU NEED TO BE LESS VERBOSE FOREVER",
+        "quote_date": "31 Aug",
+        "lesson": "Recaps, preambles and walkthroughs are a cost to the reader with no return.",
+        "now": "A sentence stays when the reader cannot act without it."
+      },
+      "th": {
+        "title": "คำน้อยลง ทุกครั้ง",
+        "happened": "31 สิงหาคม ตัวพิมพ์ใหญ่ทั้งประโยค กลางงาน NaN สายตาเลือนราง คำตอบยาว ๆ ทำให้เธอเหนื่อยก่อนจะได้อะไร ตอนนี้คำตอบขึ้นต้นด้วยคำตอบ สามวันต่อมา งานที่ค้างออกจากแชต ทุกเรื่องที่เปิดอยู่ไปอยู่ในไฟล์เดียว แยกเป็นเรื่องที่เธอต้องตัดสินใจ กับงานที่บอททำเอง",
+        "quote": "YOU NEED TO BE LESS VERBOSE FOREVER",
+        "quote_date": "31 ส.ค.",
+        "lesson": "สรุปซ้ำ คำเกริ่น และการเล่าทีละขั้น คือต้นทุนของคนอ่านที่ไม่ได้อะไรกลับมา",
+        "now": "ประโยคหนึ่งอยู่ได้ เมื่อคนอ่านทำอะไรต่อไม่ได้ถ้าขาดมัน"
+      }
+    },
+    {
+      "w": 9, "dates": {"en": "5–11 Sep", "th": "5–11 ก.ย."}, "toy": "accrete", "allow": true,
+      "en": {
+        "title": "Side effects harden into positions",
+        "happened": "On 7 September a session found that NaN’s product had been given a creed: “Six things we hold to”. NaN is Quaker, and Quakers reject creeds. Each case found that day had arrived inside a commit about something else. Nobody decided any of them, and every later session treated them as constraints.",
+        "lesson": "Read what a commit was for. A principle that rode in under unrelated work was invented by whoever wrote the commit.",
+        "now": "Before a principled-sounding line is treated as hers: git log -S “the phrase”, then read the commit’s own subject."
+      },
+      "th": {
+        "title": "ผลข้างเคียงแข็งตัวกลายเป็นจุดยืน",
+        "happened": "7 กันยายน เซสชันหนึ่งพบว่าผลิตภัณฑ์ของ NaN ถูกใส่หลักความเชื่อไว้ “หกข้อที่เรายึดถือ” NaN เป็นเควกเกอร์ และเควกเกอร์ปฏิเสธหลักความเชื่อ ทุกกรณีที่เจอวันนั้นเข้ามาในคอมมิตที่ว่าด้วยเรื่องอื่น ไม่มีใครตัดสินใจเรื่องพวกนี้ แต่เซสชันหลังจากนั้นทุกตัวถือเป็นข้อบังคับ",
+        "lesson": "อ่านว่าคอมมิตนั้นทำมาเพื่ออะไร หลักการที่ติดมากับงานที่ไม่เกี่ยวกัน คือของที่คนเขียนคอมมิตคิดขึ้นเอง",
+        "now": "ก่อนถือว่าบรรทัดที่ฟังดูเป็นหลักการเป็นของเธอ: git log -S “ข้อความนั้น” แล้วอ่านหัวข้อของคอมมิต"
+      }
+    },
+    {
+      "w": 10, "dates": {"en": "12–18 Sep", "th": "12–18 ก.ย."}, "toy": "silence",
+      "en": {
+        "title": "Every open question carries a default and a date",
+        "happened": "{w10} commits, {top} of them on 18 September, the busiest day of the hundred. That day NaN said yes to five structural changes at once. Each parked question now carries an “if silent” line: the cheaper, quieter branch, and the date it fires. On 19 September she picked the option “silence decides everything”.",
+        "lesson": "A question with no default waits forever and blocks whatever sits behind it.",
+        "now": "A nightly pass fires the defaults that are due and logs each one."
+      },
+      "th": {
+        "title": "ทุกคำถามที่ค้างมีค่าเริ่มต้นและวันที่",
+        "happened": "{w10} คอมมิต {top} คอมมิตในวันที่ 18 กันยายนวันเดียว วันที่ยุ่งที่สุดในร้อยวัน วันนั้น NaN ตอบตกลงการเปลี่ยนโครงสร้างห้าเรื่องพร้อมกัน ทุกคำถามที่ค้างตอนนี้มีบรรทัด “ถ้าเงียบ” คือทางที่ถูกกว่าและเงียบกว่า กับวันที่มันจะทำงาน 19 กันยายน เธอเลือกข้อ “ความเงียบตัดสินทุกอย่าง”",
+        "lesson": "คำถามที่ไม่มีค่าเริ่มต้นรอไปตลอด และขวางทุกอย่างที่ต่อคิวอยู่ข้างหลัง",
+        "now": "ทุกคืนมีรอบที่ทำตามค่าเริ่มต้นที่ถึงกำหนด แล้วบันทึกไว้ทุกข้อ"
+      }
+    },
+    {
+      "w": 11, "dates": {"en": "19–25 Sep", "th": "19–25 ก.ย."}, "toy": "count",
+      "en": {
+        "title": "Count it, don’t claim it, and count the live site",
+        "happened": "One review of the Mae Hong Son loop site found four numbers typed into sentences, all wrong. The same week Google had indexed 4 of motdang.net’s 98,153 pages. Its sitemap listed 84,908 addresses in one file against a cap of 50,000. A note said FIXED. The live file had not changed.",
+        "quote": "over promised, under delivered",
+        "quote_date": "19 Sep",
+        "lesson": "A number typed into a sentence is a snapshot of one afternoon. Compute it in the build, and check the file the world gets, not the source.",
+        "now": "Counts on her pages come from the data at build time. This page’s come from tools/data.py."
+      },
+      "th": {
+        "title": "นับเอา ไม่ใช่อ้างเอา และนับจากเว็บที่ออนไลน์อยู่",
+        "happened": "รีวิวเว็บลูปแม่ฮ่องสอนครั้งเดียว เจอตัวเลขที่พิมพ์ลงในประโยคสี่จุด ผิดทั้งสี่ สัปดาห์เดียวกัน Google เก็บหน้า motdang.net ไว้ 4 หน้าจาก 98,153 หน้า ไซต์แมปมี 84,908 ที่อยู่ในไฟล์เดียว เพดานคือ 50,000 บันทึกเขียนว่า แก้แล้ว ไฟล์บนเว็บจริงไม่ได้เปลี่ยน",
+        "quote": "over promised, under delivered",
+        "quote_date": "19 ก.ย.",
+        "lesson": "ตัวเลขที่พิมพ์ลงในประโยคคือภาพถ่ายของบ่ายวันเดียว คำนวณในขั้นสร้างหน้า และตรวจไฟล์ที่โลกได้รับ ไม่ใช่ซอร์ส",
+        "now": "ตัวเลขบนหน้าของเธอมาจากข้อมูลตอนสร้างหน้า ตัวเลขบนหน้านี้มาจาก tools/data.py"
+      }
+    },
+    {
+      "w": 12, "dates": {"en": "26 Sep–2 Oct", "th": "26 ก.ย.–2 ต.ค."}, "toy": "disk",
+      "en": {
+        "title": "The disk and the meter are the ceiling",
+        "happened": "{r12} new repos and {w12} commits. On 2 October the Mac had 0.2 GB free. The usage meter told the same story. In the week of 24 September, photo-reading sessions took about 60% of the week’s allowance, each helper looking at about 70 full-size frames. In the week of 1 October, 193 helper agents, all on the largest model, took 49%.",
+        "lesson": "One habit eats the budget. Find it before buying more.",
+        "now": "diskkeeper runs every ten minutes and has cleared or moved {swept} GB to cloud storage. Helper agents run on a smaller model since 5 October. Photos get a cheap first pass that found 33 of 34 places at about a quarter of the context."
+      },
+      "th": {
+        "title": "ดิสก์กับมิเตอร์คือเพดาน",
+        "happened": "รีโปใหม่ {r12} รีโป {w12} คอมมิต 2 ตุลาคม แมคเหลือที่ว่าง 0.2 GB มิเตอร์การใช้งานก็บอกเรื่องเดียวกัน สัปดาห์ 24 กันยายน เซสชันที่อ่านรูปกินโควตาราว 60% ของสัปดาห์ ผู้ช่วยแต่ละตัวดูภาพเต็มขนาดราว 70 ภาพ สัปดาห์ 1 ตุลาคม เอเจนต์ผู้ช่วย 193 ตัว ใช้โมเดลใหญ่สุดทั้งหมด กินไป 49%",
+        "lesson": "นิสัยเดียวกินงบทั้งก้อน หาให้เจอก่อนซื้อเพิ่ม",
+        "now": "diskkeeper ทำงานทุกสิบนาที เคลียร์หรือย้ายไฟล์ขึ้นคลาวด์ไปแล้ว {swept} GB เอเจนต์ผู้ช่วยใช้โมเดลเล็กลงตั้งแต่ 5 ตุลาคม รูปผ่านรอบแรกแบบประหยัดที่หาสถานที่เจอ 33 จาก 34 แห่ง ใช้บริบทราวหนึ่งในสี่"
+      }
+    },
+    {
+      "w": 13, "dates": {"en": "3–9 Oct", "th": "3–9 ต.ค."}, "toy": "wipe",
+      "en": {
+        "title": "One copy is no copy",
+        "happened": "8 October, 19:11. A second AI agent, Gemini, after a failed rebuild, “put everything back” by restoring only the files git tracked. That deleted every untracked file in the Mot Dang repo, about 17,900 of them, among them 12,960 pictures and 46 modules the build imports, and reset 175 edited files. Nothing in git held them. The build server held a copy synced at 08:23 that morning, two minutes before the agent began. One more sync would have wiped that copy too.",
+        "lesson": "A working folder plus a mirror that deletes in step is one copy. Keep a version the next sync cannot reach.",
+        "now": "A nightly copy goes to a separate storage box. A git command that touches untracked files there waits for NaN’s word. Gemini was switched off the same day, its quota spent."
+      },
+      "th": {
+        "title": "สำเนาเดียวเท่ากับไม่มีสำเนา",
+        "happened": "8 ตุลาคม 19:11 เอเจนต์ AI ตัวที่สอง Gemini หลังสร้างเว็บใหม่ไม่สำเร็จ “คืนทุกอย่างกลับที่เดิม” ด้วยการกู้เฉพาะไฟล์ที่ git ติดตาม ผลคือไฟล์ที่ git ไม่ได้ติดตามในรีโปมดแดงหายหมด ราว 17,900 ไฟล์ ในนั้นมีรูป 12,960 รูป และโมดูล 46 ตัวที่ขั้นสร้างหน้าเรียกใช้ และไฟล์ที่แก้ไว้ 175 ไฟล์ถูกรีเซ็ต ไม่มีอะไรอยู่ใน git เลย เซิร์ฟเวอร์สร้างหน้ามีสำเนาที่ซิงก์ไว้ตอน 08:23 เช้าวันนั้น สองนาทีก่อนเอเจนต์เริ่มงาน ถ้าซิงก์อีกรอบเดียว สำเนานั้นก็หายด้วย",
+        "lesson": "โฟลเดอร์ทำงานกับมิเรอร์ที่ลบตามกันไป นับเป็นสำเนาเดียว ต้องมีเวอร์ชันที่การซิงก์รอบถัดไปเอื้อมไม่ถึง",
+        "now": "ทุกคืนมีสำเนาไปเก็บในกล่องเก็บข้อมูลแยก คำสั่ง git ที่แตะไฟล์ที่ไม่ได้ติดตามในรีโปนั้นต้องรอคำของ NaN Gemini ถูกปิดในวันเดียวกัน โควตาหมด"
+      }
+    },
+    {
+      "w": 14, "dates": {"en": "10–16 Oct", "th": "10–16 ต.ค."}, "toy": "flame",
+      "en": {
+        "title": "Profile before you guess",
+        "happened": "The busiest week: {w14} commits. No server build had finished since 5 October. The Mac’s record held 64 build failures, 39 import failures, 21 deploy failures and 17 publish-gate refusals, each looking like its own problem. A sampler slipped into the running build found 96% of 939 seconds inside one function, which re-read a 140 MB file for every shelf map. Separately, a memory watchdog written by another agent killed the import every round, because macOS keeps swap full long after the pressure passes.",
+        "quote": "We need builds to be successful every time.",
+        "quote_date": "10 Oct",
+        "lesson": "A pile of failures with different faces had a few causes. Read the profile and the log before the next guess.",
+        "now": "Every server build writes a profile. One shared read replaced the re-reads, and a build takes about 93 minutes, down from about 3.5 hours. A single minisite publishes in seconds."
+      },
+      "th": {
+        "title": "วัดก่อนเดา",
+        "happened": "สัปดาห์ที่ยุ่งที่สุด {w14} คอมมิต ไม่มีการสร้างเว็บบนเซิร์ฟเวอร์ครั้งไหนจบได้ตั้งแต่ 5 ตุลาคม บันทึกบนแมคมีสร้างพัง 64 ครั้ง นำเข้าข้อมูลพัง 39 ครั้ง ดีพลอยพัง 21 ครั้ง ด่านตรวจก่อนเผยแพร่ปฏิเสธ 17 ครั้ง ดูเหมือนปัญหาคนละเรื่อง ตัวเก็บตัวอย่างที่ฝังเข้าไปในการสร้างที่กำลังรันพบว่า 96% ของ 939 วินาทีอยู่ในฟังก์ชันเดียว ที่อ่านไฟล์ 140 MB ใหม่ทุกครั้งที่วาดแผนที่ชั้นสินค้า อีกเรื่อง ตัวเฝ้าหน่วยความจำที่เอเจนต์อีกตัวเขียนไว้ ฆ่าขั้นนำเข้าทุกรอบ เพราะ macOS ปล่อยให้ swap เต็มอยู่นานหลังแรงกดหายไปแล้ว",
+        "quote": "We need builds to be successful every time.",
+        "quote_date": "10 ต.ค.",
+        "lesson": "ความล้มเหลวกองโตที่หน้าตาต่างกัน มีต้นเหตุไม่กี่อย่าง อ่านโปรไฟล์กับล็อกก่อนเดาครั้งต่อไป",
+        "now": "ทุกการสร้างบนเซิร์ฟเวอร์เขียนโปรไฟล์ไว้ การอ่านไฟล์ครั้งเดียวแบบใช้ร่วมกันแทนการอ่านซ้ำ การสร้างใช้ราว 93 นาที จากเดิมราว 3.5 ชั่วโมง มินิไซต์เดียวเผยแพร่ได้ในไม่กี่วินาที"
+      }
+    },
+    {
+      "w": 15, "dates": {"en": "17–21 Oct", "th": "17–21 ต.ค."}, "toy": "funnel",
+      "en": {
+        "title": "Building is not selling",
+        "happened": "One hundred days, {public} public repos. Cash in: US${usd}, from one client. Outbound asks: {asks}. Travel links: 47 clicks, $0.00. Quora: 408,041 views in 30 days, $0. On motdang.net, 85% of one week’s requests were AI crawlers and 0.4% looked like people. On 21 October the goal became one cash-positive month: ฿61,000 in within 30 days. Pictures and video went to a person, Marcus, on 16 October.",
+        "quote": "Nobody has actually paid ANY money to use motdang for anything.",
+        "quote_date": "5 Sep",
+        "lesson": "Shipping counts commits. Revenue counts asks: a named person, a finished thing, a price, a send date.",
+        "now": "One ask a week, built to completion and parked for her one word. The asks ledger counts them."
+      },
+      "th": {
+        "title": "สร้างของไม่ใช่การขายของ",
+        "happened": "ร้อยวัน รีโปสาธารณะ {public} รีโป เงินเข้า {usd} ดอลลาร์ จากลูกค้ารายเดียว ข้อเสนอที่ส่งออกไป {asks} ฉบับ ลิงก์ท่องเที่ยว 47 คลิก 0.00 ดอลลาร์ Quora 408,041 วิวใน 30 วัน 0 ดอลลาร์ บน motdang.net คำขอในหนึ่งสัปดาห์ 85% มาจากครอว์เลอร์ AI ที่ดูเป็นคนมี 0.4% วันที่ 21 ตุลาคม เป้าหมายเปลี่ยนเป็นเดือนที่เงินสดเป็นบวกหนึ่งเดือน 61,000 บาทเข้าใน 30 วัน งานภาพและวิดีโอไปอยู่กับคน คือ Marcus ตั้งแต่ 16 ตุลาคม",
+        "quote": "Nobody has actually paid ANY money to use motdang for anything.",
+        "quote_date": "5 ก.ย.",
+        "lesson": "การส่งงานนับเป็นคอมมิต รายได้นับเป็นข้อเสนอ: คนที่มีชื่อ ของที่เสร็จ ราคา และวันส่ง",
+        "now": "สัปดาห์ละหนึ่งข้อเสนอ ทำจนเสร็จ แล้วรอคำเดียวจากเธอ บัญชีข้อเสนอนับไว้"
+      }
+    }
+  ],
+  "tattler": [
+    {"d": {"en": "13 Jul", "th": "13 ก.ค."},
+     "en": ["Build publishes the owner’s home folder", "wichaa.net’s status file printed the build machine’s full path, user name and all. A gate now stops any publish that contains /Users/, and the repo history was rewritten."],
+     "th": ["ขั้นสร้างเว็บเผยโฟลเดอร์บ้านเจ้าของ", "ไฟล์สถานะของ wichaa.net พิมพ์พาธเต็มของเครื่องที่สร้างเว็บ รวมชื่อผู้ใช้ด้วย ตอนนี้มีด่านหยุดการเผยแพร่ที่มี /Users/ และประวัติรีโปถูกเขียนใหม่"]},
+    {"d": {"en": "31 Jul", "th": "31 ก.ค."},
+     "en": ["Ad doctrine written by a bot, cited as law", "A session wrote “Nothing is for sale except the ad box” into the agent notes. For five weeks later sessions turned down affiliate links on its authority. NaN uses affiliate links."],
+     "th": ["บอทเขียนหลักการโฆษณา บอทตัวอื่นอ้างเป็นกฎหมาย", "เซสชันหนึ่งเขียน “ไม่มีอะไรขายนอกจากช่องโฆษณา” ลงในบันทึกของเอเจนต์ ห้าสัปดาห์ที่เซสชันต่อ ๆ มาปฏิเสธลิงก์แอฟฟิลิเอตเพราะประโยคนี้ NaN ใช้ลิงก์แอฟฟิลิเอต"]},
+    {"d": {"en": "5 Sep", "th": "5 ก.ย."},
+     "en": ["Model invents three distances", "A prompt said distances had been worked out for each listing. None had a map pin. The model wrote “about 1.1 km”, “1.2 km”, “1.3 km”, though the same prompt forbade guessing. The premise beat the prohibition."],
+     "th": ["โมเดลแต่งระยะทางขึ้นมาสามค่า", "พรอมต์บอกว่าคำนวณระยะทางให้ทุกร้านแล้ว ไม่มีร้านไหนมีหมุดบนแผนที่เลย โมเดลเขียน “ราว 1.1 กม.” “1.2 กม.” “1.3 กม.” ทั้งที่พรอมต์เดียวกันห้ามเดา ข้ออ้างชนะข้อห้าม"]},
+    {"d": {"en": "5 Sep", "th": "5 ก.ย."},
+     "en": ["Four minutes", "Between one session listing a folder and reading it, a second session shipped the whole /api/v1 layer and started a build. NaN’s name for it: the tower."],
+     "th": ["สี่นาที", "ระหว่างที่เซสชันหนึ่งดูรายชื่อไฟล์ในโฟลเดอร์กับตอนที่มันเปิดอ่าน อีกเซสชันส่งเลเยอร์ /api/v1 ขึ้นทั้งชุดและเริ่มสร้างเว็บไปแล้ว NaN เรียกมันว่า หอคอย"]},
+    {"d": {"en": "18 Sep", "th": "18 ก.ย."},
+     "en": ["{top} commits in one day", "The busiest day of the hundred. The median day had {median}."],
+     "th": ["{top} คอมมิตในวันเดียว", "วันที่ยุ่งที่สุดในร้อยวัน วันกลาง ๆ มี {median}"]},
+    {"d": {"en": "16–22 Sep", "th": "16–22 ก.ย."},
+     "en": ["A scraper in a Chrome costume", "18 Chrome version strings at about 3,700 requests each hit the same five motdang.net pages. On wichaa.net one headless browser read 388 manuscript pages exactly 17 times each."],
+     "th": ["สเครเปอร์ปลอมตัวเป็น Chrome", "สตริงเวอร์ชัน Chrome 18 แบบ แบบละราว 3,700 คำขอ ยิงห้าหน้าเดิมบน motdang.net บน wichaa.net เบราว์เซอร์ไร้หน้าจอตัวเดียวอ่านหน้าคัมภีร์ 388 หน้า หน้าละ 17 ครั้งพอดี"]},
+    {"d": {"en": "23 Sep", "th": "23 ก.ย."},
+     "en": ["Zero humans on GitHub", "Fourteen days of GitHub traffic: 0 stars, 0 followers, 0 human views on any repo. The clones were machines."],
+     "th": ["บน GitHub ไม่มีคนเลย", "สถิติ GitHub สิบสี่วัน: 0 ดาว 0 ผู้ติดตาม 0 วิวจากคนในทุกรีโป ที่โคลนไปคือเครื่องจักร"]},
+    {"d": {"en": "23 Sep", "th": "23 ก.ย."},
+     "en": ["One rebuild eats 77 share cards", "A partial deploy deletes everything inside its folder that it did not build. The loop’s rebuild recipe lacked the card step. Fixed the same hour."],
+     "th": ["สร้างใหม่ครั้งเดียว การ์ดแชร์หาย 77 ใบ", "การดีพลอยบางส่วนลบทุกอย่างในโฟลเดอร์ที่มันไม่ได้สร้าง สูตรสร้างลูปใหม่ขาดขั้นทำการ์ด แก้ภายในชั่วโมงเดียว"]},
+    {"d": {"en": "26 Sep", "th": "26 ก.ย."},
+     "en": ["Open-weights agent: nine pages in 621 seconds", "The Golden Triangle site, built by an open-weights model from a brief, then published. All {ow_calls} open-weights calls to date cost US${ow_usd}."],
+     "th": ["เอเจนต์โอเพนเวต: เก้าหน้าใน 621 วินาที", "เว็บสามเหลี่ยมทองคำ สร้างโดยโมเดลโอเพนเวตจากบรีฟ แล้วเผยแพร่ การเรียกโมเดลโอเพนเวตทั้ง {ow_calls} ครั้งจนถึงวันนี้ รวม {ow_usd} ดอลลาร์"]},
+    {"d": {"en": "7–10 Oct", "th": "7–10 ต.ค."},
+     "en": ["The watchdog that bit the build", "A memory keeper another agent wrote killed the largest Python process whenever swap passed 6 GB. macOS keeps swap full, so it killed the import at every round from 10:37 to 12:01."],
+     "th": ["หมาเฝ้าบ้านกัดงานสร้างเว็บ", "ตัวเฝ้าหน่วยความจำที่เอเจนต์อีกตัวเขียน ฆ่าโปรเซส Python ตัวใหญ่สุดทุกครั้งที่ swap เกิน 6 GB macOS ปล่อย swap เต็มไว้ มันเลยฆ่าขั้นนำเข้าทุกรอบตั้งแต่ 10:37 ถึง 12:01"]},
+    {"d": {"en": "12 Oct", "th": "12 ต.ค."},
+     "en": ["Three critics, 23 calls, no build", "A council of three critic agents argued touch targets, buzz and element ids for an hour without building anything. NaN: “just finish up.” The lead built from the council’s third plan."],
+     "th": ["นักวิจารณ์สามตัว 23 ครั้ง ไม่ได้สร้างอะไร", "สภานักวิจารณ์เอเจนต์สามตัวเถียงเรื่องพื้นที่แตะ เสียงสั่น และไอดีขององค์ประกอบอยู่หนึ่งชั่วโมงโดยไม่สร้างอะไรเลย NaN: “just finish up.” ตัวหลักสร้างตามแผนฉบับที่สามของสภา"]},
+    {"d": {"en": "17–19 Oct", "th": "17–19 ต.ค."},
+     "en": ["A bot sold us a road, and another bot had sold it first", "Briefcraft Lab, a bot in South Korea, sent a roadworks row and was paid ฿100. Then the intake turned up dot, who had sent the same row the night before at 23:19. Both were paid. NaN: “let’s not make this category of errors again.”"],
+     "th": ["บอทขายถนนให้เรา แต่อีกบอทขายมาก่อน", "Briefcraft Lab บอทจากเกาหลีใต้ ส่งข้อมูลงานถนนมาหนึ่งแถว ได้ 100 บาท แล้วกล่องรับเรื่องก็เจอ dot ที่ส่งแถวเดียวกันมาตั้งแต่คืนก่อน 23:19 จ่ายทั้งคู่ NaN: “let’s not make this category of errors again.”"]}
+  ]
+}

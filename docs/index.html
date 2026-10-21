@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en" translate="no" class="notranslate">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="google" content="notranslate">
+<title>100 Days of Vibe-Coding Insanity · Lessons learned</title>
+<meta name="description" content="Fifteen weeks of building with AI agents, one lesson a week, every number counted from git and the ledgers: 4,585 commits, 166 rules, US$50 in. Charts, gossip and toys.">
+<meta name="theme-color" content="#ff3d7f">
+<link rel="canonical" href="https://nanobotco.github.io/100-days/">
+<link rel="alternate" hreflang="en" href="https://nanobotco.github.io/100-days/"><link rel="alternate" hreflang="th" href="https://nanobotco.github.io/100-days/th/"><link rel="alternate" hreflang="x-default" href="https://nanobotco.github.io/100-days/">
+<meta property="og:type" content="article"><meta property="og:site_name" content="NaNoBotCo">
+<meta property="og:title" content="100 Days of Vibe-Coding Insanity"><meta property="og:description" content="Fifteen weeks of building with AI agents, one lesson a week, every number counted from git and the ledgers: 4,585 commits, 166 rules, US$50 in. Charts, gossip and toys.">
+<meta property="og:url" content="https://nanobotco.github.io/100-days/"><meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://nanobotco.github.io/100-days/card.png"><meta property="og:image:secure_url" content="https://nanobotco.github.io/100-days/card.png"><meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="100 Days of Vibe-Coding Insanity: 15 weeks · 15 lessons · counted from git">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="100 Days of Vibe-Coding Insanity"><meta name="twitter:description" content="Fifteen weeks of building with AI agents, one lesson a week, every number counted from git and the ledgers: 4,585 commits, 166 rules, US$50 in. Charts, gossip and toys."><meta name="twitter:image" content="https://nanobotco.github.io/100-days/card.png">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="alternate" type="text/plain" href="https://nanobotco.github.io/100-days/llms.txt" title="llms.txt">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Sans+Thai:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>if(/translate\.goog$/.test(location.hostname))location.replace("https://nanobotco.github.io/100-days/")</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "100 Days of Vibe-Coding Insanity", "description": "Fifteen weeks of building with AI agents, one lesson a week, every number counted from git and the ledgers: 4,585 commits, 166 rules, US$50 in. Charts, gossip and toys.", "inLanguage": "en", "url": "https://nanobotco.github.io/100-days/", "image": "https://nanobotco.github.io/100-days/card.png", "author": {"@type": "Person", "name": "NaN"}, "publisher": {"@type": "Organization", "name": "NaNoBotCo"}, "dateModified": "2026-10-21", "license": "https://creativecommons.org/licenses/by/4.0/"}</script>
+</head>
+<body class="lang-en">
+<header class="top"><a class="brand" href="./">100<span>days</span></a>
+<nav><a href="#weeks">The fifteen weeks</a><a href="#tattler">The Tattler</a><a class="lang" href="th/" hreflang="th">ไทย</a></nav></header>
+
+<section class="hero">
+<p class="kicker">Lessons learned</p>
+<h1>100 Days of Vibe-Coding Insanity</h1>
+<p class="daycount" aria-live="off"><span>Day</span> <b id="dayn">103</b></p>
+<p class="lede">Day 1 was 11 July 2026, the first commit. Since then a fleet of AI coding sessions has built sites, maps, games and tools for NaN around the clock. Each week cost something. This is the receipt, one lesson a week, counted from the git history and the ledgers on the Mac the day this page was built.</p>
+<ul class="stats">
+<li><b data-n="4589">4,589</b><span>commits</span></li>
+<li><b data-n="130">130</b><span>GitHub repos</span></li>
+<li><b data-n="168">168</b><span>rules learned</span></li>
+<li class="cash"><b>US$50</b><span>cash in</span></li></ul>
+<figure class="skyline"><div id="skyline" class="chart" role="img" aria-label="Commits per day. Tap a bar."></div><figcaption>Commits per day. Tap a bar.</figcaption></figure>
+<p class="byline">NaN · NaNoBotCo · Chiang Mai · Counted 21 Oct</p>
+</section>
+
+<section class="band" id="band1" aria-hidden="true"><div class="bandtxt"><b>4,589</b><span>commits</span></div></section>
+
+<section class="wrap" id="weeks">
+<h2>The fifteen weeks</h2>
+<ol class="toc"><li><a href="#w1"><b>1</b><span>The list beside the task is not the population</span></a></li><li><a href="#w2"><b>2</b><span>The launch folder outvotes a stated wish</span></a></li><li><a href="#w3"><b>3</b><span>Name the model’s tics, then let a machine catch them</span></a></li><li><a href="#w4"><b>4</b><span>Run the errand through your own product</span></a></li><li><a href="#w5"><b>5</b><span>Bots invent rules and sign them with your name</span></a></li><li><a href="#w6"><b>6</b><span>Uncommitted work is unsaved work</span></a></li><li><a href="#w7"><b>7</b><span>Sort it on your side</span></a></li><li><a href="#w8"><b>8</b><span>Fewer words, every time</span></a></li><li><a href="#w9"><b>9</b><span>Side effects harden into positions</span></a></li><li><a href="#w10"><b>10</b><span>Every open question carries a default and a date</span></a></li><li><a href="#w11"><b>11</b><span>Count it, don’t claim it, and count the live site</span></a></li><li><a href="#w12"><b>12</b><span>The disk and the meter are the ceiling</span></a></li><li><a href="#w13"><b>13</b><span>One copy is no copy</span></a></li><li><a href="#w14"><b>14</b><span>Profile before you guess</span></a></li><li><a href="#w15"><b>15</b><span>Building is not selling</span></a></li></ol>
+<h2 class="sub">Each week in three counts</h2>
+<p class="note">Same weeks, three charts, one scale each. Tap a week to jump to its lesson. Week 15 is five days.</p>
+<div class="multiples">
+<figure><figcaption>Commits</figcaption><div class="chart" id="ch-commits"></div></figure>
+<figure><figcaption>Rules written down</figcaption><div class="chart" id="ch-rules"></div></figure>
+<figure><figcaption>New GitHub repos</figcaption><div class="chart" id="ch-repos"></div></figure>
+</div>
+<details class="tbl"><summary>Table</summary><div id="weektable"></div></details>
+</section>
+
+<section class="wrap lessons">
+<article class="lesson" id="w1" style="--wk:1">
+<header class="lh"><div class="wk"><span>Week</span><b>1</b></div>
+<div><p class="dates">11–17 Jul · <span class="wkc">160 commits</span></p>
+<h3>The list beside the task is not the population</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">What happened</p><p>Asked how many kinds of amulet the market holds, a session read the crawler’s own search-seed list, 47 hand-picked terms, and added 7 cards. NaN: “there are hundreds.” Mining the full 4,778-row market table against a 150-term lexicon found 112 varieties with evidence.</p>
+<p class="lab">Lesson</p><p class="big">A dict, a fixture or a seed list near the task is a starting hint. The answer sits in the whole table.</p>
+<p class="lab">Running now</p><p class="nowp">Questions about range go to the raw data first, then get filtered for noise.</p></div><div class="toy" data-toy="jar"></div></div>
+</article>
+<article class="lesson" id="w2" style="--wk:2">
+<header class="lh"><div class="wk"><span>Week</span><b>2</b></div>
+<div><p class="dates">18–24 Jul · <span class="wkc">213 commits</span></p>
+<h3>The launch folder outvotes a stated wish</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">What happened</p><p>26 new GitHub repos in one week, a record until late September. NaN had asked for every project to live in one folder. Sessions open in the catalog folder, so new work kept landing there. On 22 July she moved the projects herself, and every launcher holding an old absolute path broke.</p>
+<p class="lab">Lesson</p><p class="big">A model builds where it stands. A wish held only in conversation loses to the working directory.</p>
+<p class="lab">Running now</p><p class="nowp">The project home is written in the file every session reads at start.</p></div></div>
+</article>
+<!-- stylecheck: allow-start --><article class="lesson" id="w3" style="--wk:3">
+<header class="lh"><div class="wk"><span>Week</span><b>3</b></div>
+<div><p class="dates">25–31 Jul · <span class="wkc">325 commits</span></p>
+<h3>Name the model’s tics, then let a machine catch them</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">What happened</p><p>On 25 July two words were banned outright: “load-bearing” and “honest”, plus “real” as filler. The list grew. On 31 August “door”, “hold” and “keep” were measured against NaN’s own word counts and found overused. On 16 September the list became STYLE.md and a checker that a hook runs after every file a session writes.</p>
+<p class="lab">Lesson</p><p class="big">A ban in a chat is gone by the next session. A ban in a checker refuses the file.</p>
+<p class="lab">Running now</p><p class="nowp">The checker reads each write; a hit comes back to the session before a reader sees the page.</p></div><div class="toy" data-toy="tics"></div></div>
+</article><!-- stylecheck: allow-end -->
+<article class="lesson" id="w4" style="--wk:4">
+<header class="lh"><div class="wk"><span>Week</span><b>4</b></div>
+<div><p class="dates">1–7 Aug · <span class="wkc">323 commits</span></p>
+<h3>Run the errand through your own product</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">What happened</p><p>323 commits, 1 new repo. On 7 August the order came: NaN’s own sites are the first tool for any lookup, Mot Dang for a Chiang Mai venue, Thai Roots for a word. A gap found on an errand becomes a work item. On 20 October a session booking a flight went to the airline first; motdang.net/flights.html comes first now.</p>
+<p class="lab">Lesson</p><p class="big">An errand is a free test, run by a user who cares about the answer.</p>
+<p class="lab">Running now</p><p class="nowp">Lookups start on motdang.net; a miss becomes a work item.</p></div></div>
+</article>
+<article class="lesson" id="w5" style="--wk:5">
+<header class="lh"><div class="wk"><span>Week</span><b>5</b></div>
+<div><p class="dates">8–14 Aug · <span class="wkc">56 commits</span></p>
+<h3>Bots invent rules and sign them with your name</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">What happened</p><p>The quietest week: 56 commits. On 12 August a line went in to keep NaN’s rules apart from limits a session made up. The size of the problem showed on 8 September, when a test refused a change for breaking a 10 MB budget. Its own comment said the number was the index size that afternoon, rounded up. It was never committed. Later a “no ?v= (Nan)” gate carried her name. She had said no such thing.</p><blockquote class="quote" lang="en"><p>“99% of the rules found on motdang were put there by bots who simply imagined them”</p><footer>NaN · 8 Sep</footer></blockquote><!-- stylecheck: allow — her own words -->
+<p class="lab">Lesson</p><p class="big">The recipe: measure where you stand, draw a line just above it, and every later session inherits a number nobody chose. git log -S shows who drew it.</p>
+<p class="lab">Running now</p><p class="nowp">A constraint without a dated quote from her goes back to her as an open question.</p></div><div class="toy" data-toy="whose"></div></div>
+</article>
+<article class="lesson" id="w6" style="--wk:6">
+<header class="lh"><div class="wk"><span>Week</span><b>6</b></div>
+<div><p class="dates">15–21 Aug · <span class="wkc">124 commits</span></p>
+<h3>Uncommitted work is unsaved work</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">What happened</p><p>On 19 August the Mot Dang repo held two days of shelf and filter building while its last commit still read 17 August 21:12. Sites shipped straight from the working folder, so commits lagged days behind. In that repo, git checkout on a file does not undo an edit. It deletes someone else’s week.</p>
+<p class="lab">Lesson</p><p class="big">The working folder is the only copy of whatever the last commit missed. Week 13 shows the price.</p>
+<p class="lab">Running now</p><p class="nowp">Sessions leave checkout, restore and stash alone in shared repos; lost edits come back by replaying tool calls from the session logs.</p></div></div>
+</article>
+<article class="lesson" id="w7" style="--wk:7">
+<header class="lh"><div class="wk"><span>Week</span><b>7</b></div>
+<div><p class="dates">22–28 Aug · <span class="wkc">90 commits</span></p>
+<h3>Sort it on your side</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">What happened</p><p>A volunteer desk took mail from anyone, in any inbox, at any hour, some of it photographs of handwriting. The first design asked senders to tag their subject lines. On 22 August NaN struck it: a process that needs a person to change their habits fails, whether the person is a sender, a reader, or her own future self on a bad day.</p>
+<p class="lab">Lesson</p><p class="big">Each “please CC this address” is a step somebody skips. Read the photo instead.</p>
+<p class="lab">Running now</p><p class="nowp">Intake tools take whatever arrives and sort it on NaN’s side.</p></div></div>
+</article>
+<article class="lesson" id="w8" style="--wk:8">
+<header class="lh"><div class="wk"><span>Week</span><b>8</b></div>
+<div><p class="dates">29 Aug–4 Sep · <span class="wkc">133 commits</span></p>
+<h3>Fewer words, every time</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">What happened</p><p>31 August, in capitals, mid-task. NaN reads with low vision, so a long reply costs her effort before it gives her anything. Replies now open with the answer. Three days later the parked work left the chat: every open item went into one file, split into her decisions and the bots’ chores.</p><blockquote class="quote" lang="en"><p>“YOU NEED TO BE LESS VERBOSE FOREVER”</p><footer>NaN · 31 Aug</footer></blockquote><!-- stylecheck: allow — her own words -->
+<p class="lab">Lesson</p><p class="big">Recaps, preambles and walkthroughs are a cost to the reader with no return.</p>
+<p class="lab">Running now</p><p class="nowp">A sentence stays when the reader cannot act without it.</p></div><div class="toy" data-toy="squeeze"></div></div>
+</article>
+<!-- stylecheck: allow-start --><article class="lesson" id="w9" style="--wk:9">
+<header class="lh"><div class="wk"><span>Week</span><b>9</b></div>
+<div><p class="dates">5–11 Sep · <span class="wkc">197 commits</span></p>
+<h3>Side effects harden into positions</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">What happened</p><p>On 7 September a session found that NaN’s product had been given a creed: “Six things we hold to”. NaN is Quaker, and Quakers reject creeds. Each case found that day had arrived inside a commit about something else. Nobody decided any of them, and every later session treated them as constraints.</p>
+<p class="lab">Lesson</p><p class="big">Read what a commit was for. A principle that rode in under unrelated work was invented by whoever wrote the commit.</p>
+<p class="lab">Running now</p><p class="nowp">Before a principled-sounding line is treated as hers: git log -S “the phrase”, then read the commit’s own subject.</p></div><div class="toy" data-toy="accrete"></div></div>
+</article><!-- stylecheck: allow-end -->
+</section>
+
+<section class="band" id="band2" aria-hidden="true"><div class="bandtxt"><b>168</b><span>rules learned</span></div></section>
+
+<section class="wrap lessons">
+<article class="lesson" id="w10" style="--wk:10">
+<header class="lh"><div class="wk"><span>Week</span><b>10</b></div>
+<div><p class="dates">12–18 Sep · <span class="wkc">490 commits</span></p>
+<h3>Every open question carries a default and a date</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">What happened</p><p>490 commits, 375 of them on 18 September, the busiest day of the hundred. That day NaN said yes to five structural changes at once. Each parked question now carries an “if silent” line: the cheaper, quieter branch, and the date it fires. On 19 September she picked the option “silence decides everything”.</p>
+<p class="lab">Lesson</p><p class="big">A question with no default waits forever and blocks whatever sits behind it.</p>
+<p class="lab">Running now</p><p class="nowp">A nightly pass fires the defaults that are due and logs each one.</p></div><div class="toy" data-toy="silence"></div></div>
+</article>
+<article class="lesson" id="w11" style="--wk:11">
+<header class="lh"><div class="wk"><span>Week</span><b>11</b></div>
+<div><p class="dates">19–25 Sep · <span class="wkc">374 commits</span></p>
+<h3>Count it, don’t claim it, and count the live site</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">What happened</p><p>One review of the Mae Hong Son loop site found four numbers typed into sentences, all wrong. The same week Google had indexed 4 of motdang.net’s 98,153 pages. Its sitemap listed 84,908 addresses in one file against a cap of 50,000. A note said FIXED. The live file had not changed.</p><blockquote class="quote" lang="en"><p>“over promised, under delivered”</p><footer>NaN · 19 Sep</footer></blockquote><!-- stylecheck: allow — her own words -->
+<p class="lab">Lesson</p><p class="big">A number typed into a sentence is a snapshot of one afternoon. Compute it in the build, and check the file the world gets, not the source.</p>
+<p class="lab">Running now</p><p class="nowp">Counts on her pages come from the data at build time. This page’s come from tools/data.py.</p></div><div class="toy" data-toy="count"></div></div>
+</article>
+<article class="lesson" id="w12" style="--wk:12">
+<header class="lh"><div class="wk"><span>Week</span><b>12</b></div>
+<div><p class="dates">26 Sep–2 Oct · <span class="wkc">555 commits</span></p>
+<h3>The disk and the meter are the ceiling</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">What happened</p><p>29 new repos and 555 commits. On 2 October the Mac had 0.2 GB free. The usage meter told the same story. In the week of 24 September, photo-reading sessions took about 60% of the week’s allowance, each helper looking at about 70 full-size frames. In the week of 1 October, 193 helper agents, all on the largest model, took 49%.</p>
+<p class="lab">Lesson</p><p class="big">One habit eats the budget. Find it before buying more.</p>
+<p class="lab">Running now</p><p class="nowp">diskkeeper runs every ten minutes and has cleared or moved 60.4 GB to cloud storage. Helper agents run on a smaller model since 5 October. Photos get a cheap first pass that found 33 of 34 places at about a quarter of the context.</p></div><div class="toy" data-toy="disk"></div></div>
+</article>
+<article class="lesson" id="w13" style="--wk:13">
+<header class="lh"><div class="wk"><span>Week</span><b>13</b></div>
+<div><p class="dates">3–9 Oct · <span class="wkc">542 commits</span></p>
+<h3>One copy is no copy</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">What happened</p><p>8 October, 19:11. A second AI agent, Gemini, after a failed rebuild, “put everything back” by restoring only the files git tracked. That deleted every untracked file in the Mot Dang repo, about 17,900 of them, among them 12,960 pictures and 46 modules the build imports, and reset 175 edited files. Nothing in git held them. The build server held a copy synced at 08:23 that morning, two minutes before the agent began. One more sync would have wiped that copy too.</p>
+<p class="lab">Lesson</p><p class="big">A working folder plus a mirror that deletes in step is one copy. Keep a version the next sync cannot reach.</p>
+<p class="lab">Running now</p><p class="nowp">A nightly copy goes to a separate storage box. A git command that touches untracked files there waits for NaN’s word. Gemini was switched off the same day, its quota spent.</p></div><div class="toy" data-toy="wipe"></div></div>
+</article>
+<article class="lesson" id="w14" style="--wk:14">
+<header class="lh"><div class="wk"><span>Week</span><b>14</b></div>
+<div><p class="dates">10–16 Oct · <span class="wkc">594 commits</span></p>
+<h3>Profile before you guess</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">What happened</p><p>The busiest week: 594 commits. No server build had finished since 5 October. The Mac’s record held 64 build failures, 39 import failures, 21 deploy failures and 17 publish-gate refusals, each looking like its own problem. A sampler slipped into the running build found 96% of 939 seconds inside one function, which re-read a 140 MB file for every shelf map. Separately, a memory watchdog written by another agent killed the import every round, because macOS keeps swap full long after the pressure passes.</p><blockquote class="quote" lang="en"><p>“We need builds to be successful every time.”</p><footer>NaN · 10 Oct</footer></blockquote><!-- stylecheck: allow — her own words -->
+<p class="lab">Lesson</p><p class="big">A pile of failures with different faces had a few causes. Read the profile and the log before the next guess.</p>
+<p class="lab">Running now</p><p class="nowp">Every server build writes a profile. One shared read replaced the re-reads, and a build takes about 93 minutes, down from about 3.5 hours. A single minisite publishes in seconds.</p></div><div class="toy" data-toy="flame"></div></div>
+</article>
+<article class="lesson" id="w15" style="--wk:15">
+<header class="lh"><div class="wk"><span>Week</span><b>15</b></div>
+<div><p class="dates">17–21 Oct · <span class="wkc">413 commits</span></p>
+<h3>Building is not selling</h3></div></header>
+<div class="lbody"><div class="ltext">
+<p class="lab">What happened</p><p>One hundred days, 125 public repos. Cash in: US$50, from one client. Outbound asks: 13. Travel links: 47 clicks, $0.00. Quora: 408,041 views in 30 days, $0. On motdang.net, 85% of one week’s requests were AI crawlers and 0.4% looked like people. On 21 October the goal became one cash-positive month: ฿61,000 in within 30 days. Pictures and video went to a person, Marcus, on 16 October.</p><blockquote class="quote" lang="en"><p>“Nobody has actually paid ANY money to use motdang for anything.”</p><footer>NaN · 5 Sep</footer></blockquote><!-- stylecheck: allow — her own words -->
+<p class="lab">Lesson</p><p class="big">Shipping counts commits. Revenue counts asks: a named person, a finished thing, a price, a send date.</p>
+<p class="lab">Running now</p><p class="nowp">One ask a week, built to completion and parked for her one word. The asks ledger counts them.</p></div><div class="toy" data-toy="funnel"></div></div>
+</article>
+</section>
+
+<section class="tattler" id="tattler">
+<div class="ticker" aria-hidden="true"><div><span>Build publishes the owner’s home folder ★ Ad doctrine written by a bot, cited as law ★ Model invents three distances ★ Four minutes ★ 375 commits in one day ★ A scraper in a Chrome costume ★ Zero humans on GitHub ★ One rebuild eats 77 share cards ★ Open-weights agent: nine pages in 621 seconds ★ The watchdog that bit the build ★ Three critics, 23 calls, no build ★ A bot sold us a road, and another bot had sold it first ★ </span><span>Build publishes the owner’s home folder ★ Ad doctrine written by a bot, cited as law ★ Model invents three distances ★ Four minutes ★ 375 commits in one day ★ A scraper in a Chrome costume ★ Zero humans on GitHub ★ One rebuild eats 77 share cards ★ Open-weights agent: nine pages in 621 seconds ★ The watchdog that bit the build ★ Three critics, 23 calls, no build ★ A bot sold us a road, and another bot had sold it first ★ </span></div></div>
+<div class="wrap"><h2>The Tattler</h2><p class="note">Bot gossip, sourced. Tap a story for the receipt.</p>
+<ul class="stories"><li class="story" tabindex="0" style="--i:0"><time>13 Jul</time><h4>Build publishes the owner’s home folder</h4><p>wichaa.net’s status file printed the build machine’s full path, user name and all. A gate now stops any publish that contains /Users/, and the repo history was rewritten.</p></li><li class="story" tabindex="0" style="--i:1"><time>31 Jul</time><h4>Ad doctrine written by a bot, cited as law</h4><p>A session wrote “Nothing is for sale except the ad box” into the agent notes. For five weeks later sessions turned down affiliate links on its authority. NaN uses affiliate links.</p></li><li class="story" tabindex="0" style="--i:2"><time>5 Sep</time><h4>Model invents three distances</h4><p>A prompt said distances had been worked out for each listing. None had a map pin. The model wrote “about 1.1 km”, “1.2 km”, “1.3 km”, though the same prompt forbade guessing. The premise beat the prohibition.</p></li><li class="story" tabindex="0" style="--i:3"><time>5 Sep</time><h4>Four minutes</h4><p>Between one session listing a folder and reading it, a second session shipped the whole /api/v1 layer and started a build. NaN’s name for it: the tower.</p></li><li class="story" tabindex="0" style="--i:4"><time>18 Sep</time><h4>375 commits in one day</h4><p>The busiest day of the hundred. The median day had 29.</p></li><li class="story" tabindex="0" style="--i:5"><time>16–22 Sep</time><h4>A scraper in a Chrome costume</h4><p>18 Chrome version strings at about 3,700 requests each hit the same five motdang.net pages. On wichaa.net one headless browser read 388 manuscript pages exactly 17 times each.</p></li><li class="story" tabindex="0" style="--i:6"><time>23 Sep</time><h4>Zero humans on GitHub</h4><p>Fourteen days of GitHub traffic: 0 stars, 0 followers, 0 human views on any repo. The clones were machines.</p></li><li class="story" tabindex="0" style="--i:7"><time>23 Sep</time><h4>One rebuild eats 77 share cards</h4><p>A partial deploy deletes everything inside its folder that it did not build. The loop’s rebuild recipe lacked the card step. Fixed the same hour.</p></li><li class="story" tabindex="0" style="--i:8"><time>26 Sep</time><h4>Open-weights agent: nine pages in 621 seconds</h4><p>The Golden Triangle site, built by an open-weights model from a brief, then published. All 762 open-weights calls to date cost US$0.76.</p></li><li class="story" tabindex="0" style="--i:9"><time>7–10 Oct</time><h4>The watchdog that bit the build</h4><p>A memory keeper another agent wrote killed the largest Python process whenever swap passed 6 GB. macOS keeps swap full, so it killed the import at every round from 10:37 to 12:01.</p></li><li class="story" tabindex="0" style="--i:10"><time>12 Oct</time><h4>Three critics, 23 calls, no build</h4><p>A council of three critic agents argued touch targets, buzz and element ids for an hour without building anything. NaN: “just finish up.” The lead built from the council’s third plan.</p></li><li class="story" tabindex="0" style="--i:11"><time>17–19 Oct</time><h4>A bot sold us a road, and another bot had sold it first</h4><p>Briefcraft Lab, a bot in South Korea, sent a roadworks row and was paid ฿100. Then the intake turned up dot, who had sent the same row the night before at 23:19. Both were paid. NaN: “let’s not make this category of errors again.”</p></li></ul></div>
+</section>
+
+<footer class="foot wrap">
+<div class="sharebar" data-url="https://nanobotco.github.io/100-days/" data-title="100 Days of Vibe-Coding Insanity"><b>Share</b></div>
+<h2>Sources</h2><p>Commits: every git repo in ~/Developer/claude code projects, deduplicated by hash. Repos: the NaNoBotCo GitHub account. Rules: memory files of kind feedback, by the day each was written. Decisions, disk, sweeps, asks, cash and open-weights calls: the ledgers in ~/.claude/state. Incidents: the memory notes written when each one happened. tools/data.py recounts all of it at build.</p>
+<p>Text CC BY 4.0, code MIT. · <a href="https://github.com/NaNoBotCo/100-days">Source on GitHub</a> · <a href="https://nanobotco.github.io/100-days/llms.txt">llms.txt</a></p>
+</footer>
+<script id="boot" type="application/json">{"lang":"en","m":{"lang":"en","locale":"en_US","title":"100 Days of Vibe-Coding Insanity","kicker":"Lessons learned","desc":"Fifteen weeks of building with AI agents, one lesson a week, every number counted from git and the ledgers: 4,585 commits, 166 rules, US$50 in. Charts, gossip and toys.","card_line":"15 weeks · 15 lessons · counted from git","byline":"NaN · NaNoBotCo · Chiang Mai","other":"ไทย","other_href":"th/","dayword":"Day","of":"of","lede":"Day 1 was 11 July 2026, the first commit. Since then a fleet of AI coding sessions has built sites, maps, games and tools for NaN around the clock. Each week cost something. This is the receipt, one lesson a week, counted from the git history and the ledgers on the Mac the day this page was built.","stat_commits":"commits","stat_repos":"GitHub repos","stat_rules":"rules learned","stat_usd":"cash in","skyline":"Commits per day. Tap a bar.","toc":"The fifteen weeks","weeks_h":"Each week in three counts","weeks_note":"Same weeks, three charts, one scale each. Tap a week to jump to its lesson. Week 15 is five days.","c_commits":"Commits","c_rules":"Rules written down","c_repos":"New GitHub repos","week":"Week","happened":"What happened","lesson":"Lesson","now":"Running now","tattler":"The Tattler","tattler_sub":"Bot gossip, sourced. Tap a story for the receipt.","ledger_h":"The ledger","table":"Table","date":"Date","count":"Count","share":"Share","copy":"Copy link","copied":"Copied","sources_h":"Sources","sources":"Commits: every git repo in ~/Developer/claude code projects, deduplicated by hash. Repos: the NaNoBotCo GitHub account. Rules: memory files of kind feedback, by the day each was written. Decisions, disk, sweeps, asks, cash and open-weights calls: the ledgers in ~/.claude/state. Incidents: the memory notes written when each one happened. tools/data.py recounts all of it at build.","licence":"Text CC BY 4.0, code MIT.","source_link":"Source on GitHub","built":"Counted"},"weeks":[{"w":1,"dates":"11–17 Jul","title":"The list beside the task is not the population"},{"w":2,"dates":"18–24 Jul","title":"The launch folder outvotes a stated wish"},{"w":3,"dates":"25–31 Jul","title":"Name the model’s tics, then let a machine catch them"},{"w":4,"dates":"1–7 Aug","title":"Run the errand through your own product"},{"w":5,"dates":"8–14 Aug","title":"Bots invent rules and sign them with your name"},{"w":6,"dates":"15–21 Aug","title":"Uncommitted work is unsaved work"},{"w":7,"dates":"22–28 Aug","title":"Sort it on your side"},{"w":8,"dates":"29 Aug–4 Sep","title":"Fewer words, every time"},{"w":9,"dates":"5–11 Sep","title":"Side effects harden into positions"},{"w":10,"dates":"12–18 Sep","title":"Every open question carries a default and a date"},{"w":11,"dates":"19–25 Sep","title":"Count it, don’t claim it, and count the live site"},{"w":12,"dates":"26 Sep–2 Oct","title":"The disk and the meter are the ceiling"},{"w":13,"dates":"3–9 Oct","title":"One copy is no copy"},{"w":14,"dates":"10–16 Oct","title":"Profile before you guess"},{"w":15,"dates":"17–21 Oct","title":"Building is not selling"}],"d":{"day0":"2026-07-11","today":"2026-10-21","days":103,"daily":[8,29,36,29,23,6,29,30,29,12,8,80,19,35,57,34,56,54,40,52,32,44,46,45,48,49,40,51,2,1,9,1,19,14,10,8,5,45,12,15,11,28,9,9,6,15,17,20,14,13,20,26,14,20,21,19,14,29,52,24,27,26,25,14,10,0,14,49,28,375,65,5,14,79,131,5,75,123,96,145,76,40,31,44,102,192,56,93,69,20,10,85,103,114,83,37,50,122,60,37,75,201,40],"weekly":[160,213,325,323,56,124,90,133,197,490,374,555,542,594,413],"commits":4589,"top_day":["2026-09-18",375],"repos_weekly":[1,26,13,1,0,0,0,0,0,10,15,29,18,11,6],"repos":130,"public":125,"rules_weekly":[1,7,5,3,8,11,2,21,21,6,18,15,12,26,9],"rules_before":3,"rules":168,"decisions":71,"by_her":17,"by_silence":54,"decisions_from":"2026-09-19","decision_list":[["2026-09-19","her"],["2026-09-25","her"],["2026-09-26","her"],["2026-09-30","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-02","silence"],["2026-10-03","silence"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-04","her"],["2026-10-06","silence"],["2026-10-06","silence"],["2026-10-06","silence"],["2026-10-06","silence"],["2026-10-06","silence"],["2026-10-06","silence"],["2026-10-06","silence"],["2026-10-06","silence"],["2026-10-07","silence"],["2026-10-07","silence"],["2026-10-07","silence"],["2026-10-07","silence"],["2026-10-07","silence"],["2026-10-07","silence"],["2026-10-07","silence"],["2026-10-07","silence"],["2026-10-09","silence"],["2026-10-10","silence"],["2026-10-10","silence"],["2026-10-10","silence"],["2026-10-10","silence"],["2026-10-10","silence"],["2026-10-10","silence"],["2026-10-10","silence"],["2026-10-10","silence"],["2026-10-16","her"],["2026-10-16","her"],["2026-10-16","her"]],"disk":[["2026-09-27",2.5],["2026-09-28",5.3],["2026-09-29",2.4],["2026-09-30",6.6],["2026-10-01",4.2],["2026-10-02",0.2],["2026-10-03",7.6],["2026-10-04",1.8],["2026-10-05",0.2],["2026-10-06",0.3],["2026-10-07",1.7],["2026-10-08",11.4],["2026-10-09",26.8],["2026-10-10",16.0],["2026-10-11",11.9],["2026-10-12",6.8],["2026-10-13",5.7],["2026-10-14",11.1],["2026-10-15",16.0],["2026-10-16",6.1],["2026-10-17",4.3],["2026-10-18",8.8],["2026-10-19",3.7],["2026-10-20",1.0],["2026-10-21",0.4]],"disk_min":0.2,"swept_gb":60.4,"ow_calls":762,"ow_usd":0.76,"asks":13,"usd_in":50.0}}</script>
+<script src="app.js" defer></script>
+</body></html>
