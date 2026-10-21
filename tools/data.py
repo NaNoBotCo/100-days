@@ -52,7 +52,9 @@ def main():
         weekly[i // 7] += n
 
     gh = json.loads(subprocess.run(["gh", "repo", "list", "NaNoBotCo", "--limit", "500", "--json", "createdAt,visibility"],
-                                   capture_output=True, text=True).stdout or "[]")
+                                   capture_output=True, text=True, check=True).stdout)
+    if not gh:
+        raise SystemExit("data.py: gh returned no repos; src/data.json left as it was")
     repos_w = [0] * nweeks
     for r in gh:
         d = dt.date.fromisoformat(r["createdAt"][:10])
